@@ -1,0 +1,3502 @@
+pdf 
+  2 
+
+Running models on Vgsc-995F 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 2771.581  2804.978 -1380.791      5875 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7899  
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+            -4.3965               0.2049               0.5291  
+       LocationWest  
+             1.8922  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         2771.6                     
+RND          1 2807.0 37.396 9.640e-10 ***
+LLIN.actual  1 2773.5  3.922   0.04767 *  
+Location     1 2803.8 34.226 4.907e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1990.0991 2021.6977 -990.0495      4099 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7698  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+            -4.0839               0.8671               0.5272  
+       LocationWest  
+             1.6568  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT  Pr(>Chi)    
+<none>            1990.1                     
+as.factor(RND)  1 2023.1 35.002 3.294e-09 ***
+LLIN.actual     1 1991.7  3.604   0.05763 .  
+Location        1 2013.1 24.972 5.818e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 2773.580  2813.655 -1380.790      5874 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7897  
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+              -4.391911                 0.203519                 1.891533  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               0.521321                 0.002853  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT  Pr(>Chi)    
+<none>             2773.6                     
+Location         1 2805.8 34.199 4.974e-09 ***
+RND:LLIN.actual  1 2771.6  0.002    0.9664    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1991.9915 2029.9098 -989.9958      4098 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7675  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                           -4.05383                              0.81423  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                            1.64930                              0.48691  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            0.09768  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        1992.0                      
+Location                    1 2014.8 24.8546 6.182e-07 ***
+as.factor(RND):LLIN.actual  1 1990.1  0.1076    0.7429    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+1650.8737 1688.1280 -819.4369      3668 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.8212  
+
+Number of obs: 3674 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 -4.2634                    0.2637                   -0.1150  
+            LocationWest  RND:Net.actualPermaNet-2  
+                  1.9058                   -0.1116  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT Pr(>Chi)    
+<none>            1650.9                     
+Location        1 1664.6 15.7160 7.36e-05 ***
+RND:Net.actual  1 1650.2  1.3175    0.251    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 977.6894 1011.7399 -482.8447      2148 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.9628  
+
+Number of obs: 2154 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             -4.2524                                1.2511  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.2505                                1.5216  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.6889  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       977.69                   
+Location                   1 983.31 7.6205 0.005771 **
+as.factor(RND):Net.actual  1 977.77 2.0824 0.149005   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Running models on Vgsc-995S 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 2939.746  2973.143 -1464.873      5875 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.747   
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+             4.1372              -0.1926              -0.5408  
+       LocationWest  
+            -1.7024  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         2939.8                     
+RND          1 2972.7 34.904 3.464e-09 ***
+LLIN.actual  1 2942.4  4.609   0.03181 *  
+Location     1 2969.5 31.737 1.765e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2072.334  2103.933 -1031.167      4099 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7417  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+             3.9746              -0.8206              -0.6078  
+       LocationWest  
+            -1.5689  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT  Pr(>Chi)    
+<none>            2072.3                     
+as.factor(RND)  1 2103.0 32.633 1.113e-08 ***
+LLIN.actual     1 2075.5  5.123   0.02361 *  
+Location        1 2094.8 24.473 7.537e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 2941.715  2981.791 -1464.857      5874 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7475  
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                4.15603                 -0.19839                 -1.70495  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               -0.57213                  0.01165  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT  Pr(>Chi)    
+<none>             2941.7                     
+Location         1 2971.5 31.767 1.738e-08 ***
+RND:LLIN.actual  1 2939.8  0.031    0.8594    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2074.334  2112.252 -1031.167      4098 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7416  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                           3.973045                            -0.817788  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                          -1.568529                            -0.605731  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                          -0.005097  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2074.3                      
+Location                    1 2096.8 24.4396 7.668e-07 ***
+as.factor(RND):LLIN.actual  1 2072.3  0.0003    0.9861    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+1738.2323 1775.4865 -863.1162      3668 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.8095  
+
+Number of obs: 3674 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 4.11361                  -0.24173                   0.07389  
+            LocationWest  RND:Net.actualPermaNet-2  
+                -1.75983                   0.07765  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT Pr(>Chi)    
+<none>            1738.2                     
+Location        1 1750.9 14.6416  0.00013 ***
+RND:Net.actual  1 1736.9  0.6711  0.41266    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 986.3837 1020.4342 -487.1918      2148 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.9445  
+
+Number of obs: 2154 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              4.2707                               -1.2565  
+                Net.actualPermaNet-2                          LocationWest  
+                             -0.2659                               -1.5882  
+as.factor(RND)5:Net.actualPermaNet-2  
+                              0.6625  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       986.38                   
+Location                   1 992.85 8.4621 0.003626 **
+as.factor(RND):Net.actual  1 986.32 1.9385 0.163826   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Running models on Cyp4j5-43F 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 7311.731  7345.074 -3650.865      5813 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5954  
+
+Number of obs: 5818 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+            0.37546              0.04463              0.24747  
+       LocationWest  
+           -0.51131  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT Pr(>Chi)   
+<none>         7311.7                   
+RND          1 7314.4 4.6878 0.030378 * 
+LLIN.actual  1 7311.6 1.8985 0.168245   
+Location     1 7317.2 7.4763 0.006252 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5052.787  5084.316 -2521.393      4043 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6118  
+
+Number of obs: 4048 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+             0.4133               0.1177               0.2067  
+       LocationWest  
+            -0.4313  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT Pr(>Chi)  
+<none>            5052.8                  
+as.factor(RND)  1 5052.3 1.4992  0.22079  
+LLIN.actual     1 5052.0 1.1858  0.27619  
+Location        1 5055.5 4.7221  0.02978 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 7308.721  7348.733 -3648.360      5812 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5902  
+
+Number of obs: 5818 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+               0.492706                 0.004823                -0.535037  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               0.030284                 0.093935  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT Pr(>Chi)   
+<none>             7308.7                   
+Location         1 7314.9 8.1985 0.004192 **
+RND:LLIN.actual  1 7311.7 5.0101 0.025199 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5048.713  5086.548 -2518.356      4042 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6115  
+
+Number of obs: 4048 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                             0.5235                              -0.1225  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                            -0.4757                               0.0622  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                             0.4786  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC    LRT Pr(>Chi)  
+<none>                        5048.7                  
+Location                    1 5052.4 5.6470  0.01748 *
+as.factor(RND):LLIN.actual  1 5052.8 6.0739  0.01372 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 4552.459  4589.648 -2270.230      3628 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5529  
+
+Number of obs: 3634 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 1.01206                  -0.07969                  -0.61289  
+            LocationWest  RND:Net.actualPermaNet-2  
+                -0.64522                   0.11405  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC    LRT Pr(>Chi)   
+<none>            4552.5                   
+Location        1 4557.1 6.6492  0.00992 **
+RND:Net.actual  1 4553.9 3.4823  0.06203 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2596.507  2630.457 -1292.254      2112 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5627  
+
+Number of obs: 2118 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              1.2035                               -0.4903  
+                Net.actualPermaNet-2                          LocationWest  
+                             -0.7800                               -0.6201  
+as.factor(RND)5:Net.actualPermaNet-2  
+                              0.4850  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)  
+<none>                       2596.5                  
+Location                   1 2599.7 5.1916   0.0227 *
+as.factor(RND):Net.actual  1 2597.0 2.4908   0.1145  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Running models on Coeae1d 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 8119.579  8152.969 -4054.790      5867 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.04859 
+
+Number of obs: 5872 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+           0.168184            -0.007903             0.018949  
+       LocationWest  
+          -0.053405  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC     LRT Pr(>Chi)
+<none>         8119.6                 
+RND          1 8117.8 0.23143   0.6305
+LLIN.actual  1 8117.7 0.10166   0.7498
+Location     1 8118.2 0.66578   0.4145
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5668.479  5700.073 -2829.240      4095 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.08734 
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+           0.178950            -0.022863            -0.008652  
+       LocationWest  
+          -0.043331  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC      LRT Pr(>Chi)
+<none>            5668.5                  
+as.factor(RND)  1 5666.6 0.101813   0.7497
+LLIN.actual     1 5666.5 0.013972   0.9059
+Location        1 5666.8 0.293035   0.5883
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 8118.281  8158.348 -4053.140      5866 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.05419 
+
+Number of obs: 5872 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                0.24735                 -0.03246                 -0.06919  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               -0.13321                  0.06190  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT Pr(>Chi)  
+<none>             8118.3                  
+Location         1 8117.3 1.0683  0.30133  
+RND:LLIN.actual  1 8119.6 3.2986  0.06934 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5668.745  5706.657 -2828.372      4094 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.08019 
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                            0.22490                             -0.10463  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                           -0.06568                             -0.07370  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            0.19333  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC    LRT Pr(>Chi)
+<none>                        5668.7                
+Location                    1 5667.4 0.6515   0.4196
+as.factor(RND):LLIN.actual  1 5668.5 1.7344   0.1879
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 5082.226  5119.480 -2535.113      3668 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 6.137e-05
+
+Number of obs: 3674 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                0.212483                 -0.009944                  0.097541  
+            LocationWest  RND:Net.actualPermaNet-2  
+               -0.139903                 -0.043177  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT Pr(>Chi)  
+<none>            5082.2                   
+Location        1 5083.3 3.10848  0.07789 .
+RND:Net.actual  1 5081.2 0.95729  0.32787  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2981.557  3015.608 -1484.779      2148 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 0.0001095
+
+Number of obs: 2154 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             0.17956                              -0.02141  
+                Net.actualPermaNet-2                          LocationWest  
+                             0.09640                              -0.14438  
+as.factor(RND)5:Net.actualPermaNet-2  
+                            -0.16937  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC     LRT Pr(>Chi)
+<none>                       2981.6                 
+Location                   1 2981.1 1.57738   0.2091
+as.factor(RND):Net.actual  1 2980.2 0.65416   0.4186
+
+Running models on Cyp6p4-236M 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 3652.084  3685.457 -1821.042      5847 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.144   
+
+Number of obs: 5852 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+            1.77143              0.11853              0.01603  
+       LocationWest  
+            0.75825  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC     LRT  Pr(>Chi)    
+<none>         3652.1                      
+RND          1 3665.8 15.7304 7.304e-05 ***
+LLIN.actual  1 3650.1  0.0209    0.8852    
+Location     1 3676.5 26.4121 2.758e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2565.952  2597.546 -1277.976      4095 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 0.0001632
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+            1.86771              0.54340              0.05892  
+       LocationWest  
+            0.74715  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2565.9                      
+as.factor(RND)  1 2583.7 19.7659 8.753e-06 ***
+LLIN.actual     1 2564.2  0.2712    0.6025    
+Location        1 2585.7 21.7871 3.046e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 3652.686  3692.734 -1820.343      5846 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1304  
+
+Number of obs: 5852 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                1.69144                  0.14618                  0.77575  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+                0.17295                 -0.07294  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC     LRT  Pr(>Chi)    
+<none>             3652.7                      
+Location         1 3678.3 27.5725 1.513e-07 ***
+RND:LLIN.actual  1 3652.1  1.3978    0.2371    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2566.716  2604.628 -1277.358      4094 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 0.0001803
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                             1.8179                               0.6433  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                             0.7770                               0.1337  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            -0.2874  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2566.7                      
+Location                    1 2587.6 22.8901 1.715e-06 ***
+as.factor(RND):LLIN.actual  1 2565.9  1.2364    0.2662    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 2233.286  2270.514 -1110.643      3652 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1371  
+
+Number of obs: 3658 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 1.63894                   0.17108                   0.13661  
+            LocationWest  RND:Net.actualPermaNet-2  
+                 0.63123                  -0.04723  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2233.3                      
+Location        1 2242.9 11.5872 0.0006641 ***
+RND:Net.actual  1 2231.7  0.3654 0.5455099    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1322.2931 1356.3381 -655.1466      2146 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 8.154e-05
+
+Number of obs: 2152 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              1.6081                                0.8520  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.3262                                0.6644  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.3063  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       1322.3                   
+Location                   1 1329.9 9.6091 0.001936 **
+as.factor(RND):Net.actual  1 1321.2 0.9246 0.336268   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Running models on ZZB-TE 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 3418.007  3451.361 -1704.004      5825 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.177   
+
+Number of obs: 5830 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+          1.8340874            0.1293608           -0.0004902  
+       LocationWest  
+          0.8728245  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         3418.0                     
+RND          1 3432.8 16.830 4.088e-05 ***
+LLIN.actual  1 3416.0  0.000    0.9967    
+Location     1 3444.0 28.017 1.202e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2433.922  2465.496 -1211.961      4079 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.07977 
+
+Number of obs: 4084 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+            1.91680              0.59923              0.07889  
+       LocationWest  
+            0.77094  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2433.9                      
+as.factor(RND)  1 2453.8 21.8844 2.896e-06 ***
+LLIN.actual     1 2432.3  0.4255    0.5142    
+Location        1 2452.9 20.9521 4.709e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 3418.563  3458.588 -1703.281      5824 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1592  
+
+Number of obs: 5830 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                1.74714                  0.15937                  0.89178  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+                0.16835                 -0.07852  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC     LRT  Pr(>Chi)    
+<none>             3418.6                      
+Location         1 3445.9 29.2985 6.204e-08 ***
+RND:LLIN.actual  1 3418.0  1.4442    0.2295    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2434.541  2472.430 -1211.270      4078 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.08237 
+
+Number of obs: 4084 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                             1.8639                               0.7116  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                             0.8032                               0.1589  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            -0.3202  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2434.5                      
+Location                    1 2454.7 22.1219 2.559e-06 ***
+as.factor(RND):LLIN.actual  1 2433.9  1.3807      0.24    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 2081.638  2118.856 -1034.819      3646 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.2104  
+
+Number of obs: 3652 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 1.76800                   0.18701                   0.04345  
+            LocationWest  RND:Net.actualPermaNet-2  
+                 0.81782                  -0.05851  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2081.6                      
+Location        1 2093.3 13.6959 0.0002149 ***
+RND:Net.actual  1 2080.1  0.4619 0.4967238    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1260.4996 1294.5445 -624.2498      2146 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1294  
+
+Number of obs: 2152 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              1.7348                                0.8734  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.1923                                0.7601  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.2455  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       1260.5                   
+Location                   1 1268.6 10.091  0.00149 **
+as.factor(RND):Net.actual  1 1258.9  0.373  0.54140   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Running models on Cyp6aap-Dup1 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 4305.824  4339.176 -2147.912      5823 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.3825  
+
+Number of obs: 5828 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+             1.1556               0.1964               0.1258  
+       LocationWest  
+             1.1489  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         4305.8                     
+RND          1 4350.3 46.494 9.191e-12 ***
+LLIN.actual  1 4304.5  0.669    0.4135    
+Location     1 4337.6 33.727 6.342e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2996.332  3027.901 -1493.166      4075 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.4729  
+
+Number of obs: 4080 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+             1.3174               0.9127               0.1766  
+       LocationWest  
+             1.2365  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT  Pr(>Chi)    
+<none>            2996.3                     
+as.factor(RND)  1 3041.3 46.980 7.171e-12 ***
+LLIN.actual     1 2995.2  0.893    0.3446    
+Location        1 3023.2 28.839 7.867e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 4306.991  4347.013 -2147.495      5822 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.3775  
+
+Number of obs: 5828 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                1.09940                  0.21740                  1.16020  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+                0.23704                 -0.05504  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT  Pr(>Chi)    
+<none>             4307.0                     
+Location         1 4339.3 34.339 4.629e-09 ***
+RND:LLIN.actual  1 4305.8  0.833    0.3615    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2997.613  3035.496 -1492.806      4074 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.4682  
+
+Number of obs: 4080 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                              1.281                                1.010  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                              1.256                                0.226  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                             -0.235  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2997.6                      
+Location                    1 3025.1 29.4636 5.698e-08 ***
+as.factor(RND):LLIN.actual  1 2996.3  0.7191    0.3964    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 2636.768  2673.986 -1312.384      3646 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.2752  
+
+Number of obs: 3652 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                1.269406                  0.215221                 -0.179093  
+            LocationWest  RND:Net.actualPermaNet-2  
+                1.070709                 -0.003861  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2636.8                      
+Location        1 2655.6 20.8112 5.068e-06 ***
+RND:Net.actual  1 2634.8  0.0027    0.9589    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1536.7033 1570.7427 -762.3517      2144 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.3011  
+
+Number of obs: 2150 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             1.29372                               1.05458  
+                Net.actualPermaNet-2                          LocationWest  
+                             0.04469                               1.15473  
+as.factor(RND)5:Net.actualPermaNet-2  
+                            -0.13232  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC     LRT  Pr(>Chi)    
+<none>                       1536.7                      
+Location                   1 1551.8 17.0456 3.649e-05 ***
+as.factor(RND):Net.actual  1 1534.8  0.1351    0.7132    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Running models on Chr2La 
+
+	Hypo 1_cont:
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 6903.878  6936.995 -3446.939      5555 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6517  
+
+Number of obs: 5560 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+           -0.48219             -0.03472             -0.19325  
+       LocationWest  
+            0.62293  
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT Pr(>Chi)   
+<none>         6903.9                   
+RND          1 6904.5 2.6544 0.103266   
+LLIN.actual  1 6902.9 0.9819 0.321738   
+Location     1 6911.3 9.4298 0.002135 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo 1_ base vs 25:
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 4692.593  4723.833 -2341.296      3815 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6826  
+
+Number of obs: 3820 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+           -0.44625             -0.08996             -0.24053  
+       LocationWest  
+            0.55021  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT Pr(>Chi)  
+<none>            4692.6                  
+as.factor(RND)  1 4691.4 0.8113  0.36774  
+LLIN.actual     1 4691.9 1.3101  0.25238  
+Location        1 4697.0 6.3585  0.01168 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_cont:
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 6904.249  6943.989 -3446.124      5554 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6483  
+
+Number of obs: 5560 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+               -0.55307                 -0.01113                  0.63768  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               -0.06196                 -0.05521  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT Pr(>Chi)   
+<none>             6904.2                   
+Location         1 6912.1 9.8741 0.001676 **
+RND:LLIN.actual  1 6903.9 1.6294 0.201787   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo2_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 4691.876  4729.364 -2339.938      3814 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6831  
+
+Number of obs: 3820 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                           -0.52603                              0.07674  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                            0.58266                             -0.13479  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                           -0.33172  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC    LRT Pr(>Chi)   
+<none>                        4691.9                   
+Location                    1 4696.9 7.0243 0.008041 **
+as.factor(RND):LLIN.actual  1 4692.6 2.7165 0.099314 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_cont:
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 4328.158  4365.104 -2158.079      3484 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6294  
+
+Number of obs: 3490 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                -1.03574                   0.06375                   0.57594  
+            LocationWest  RND:Net.actualPermaNet-2  
+                 0.72215                  -0.10011  
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC    LRT Pr(>Chi)   
+<none>            4328.2                   
+Location        1 4333.3 7.1051 0.007687 **
+RND:Net.actual  1 4328.6 2.4390 0.118352   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+	Hypo3_ base vs 25:
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2425.655  2459.260 -1206.828      1994 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6407  
+
+Number of obs: 2000 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             -1.1797                                0.2725  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.7864                                0.6431  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.2493  
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)  
+<none>                       2425.7                  
+Location                   1 2428.6 4.9064  0.02676 *
+as.factor(RND):Net.actual  1 2424.2 0.5991  0.43893  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Summary of results:
+
+
+	 kdrF 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 2771.581  2804.978 -1380.791      5875 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7899  
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+            -4.3965               0.2049               0.5291  
+       LocationWest  
+             1.8922  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1990.0991 2021.6977 -990.0495      4099 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7698  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+            -4.0839               0.8671               0.5272  
+       LocationWest  
+             1.6568  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 2773.580  2813.655 -1380.790      5874 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7897  
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+              -4.391911                 0.203519                 1.891533  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               0.521321                 0.002853  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1991.9915 2029.9098 -989.9958      4098 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7675  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                           -4.05383                              0.81423  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                            1.64930                              0.48691  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            0.09768  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+1650.8737 1688.1280 -819.4369      3668 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.8212  
+
+Number of obs: 3674 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 -4.2634                    0.2637                   -0.1150  
+            LocationWest  RND:Net.actualPermaNet-2  
+                  1.9058                   -0.1116  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 977.6894 1011.7399 -482.8447      2148 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.9628  
+
+Number of obs: 2154 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             -4.2524                                1.2511  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.2505                                1.5216  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.6889  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         2771.6                     
+RND          1 2807.0 37.396 9.640e-10 ***
+LLIN.actual  1 2773.5  3.922   0.04767 *  
+Location     1 2803.8 34.226 4.907e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT  Pr(>Chi)    
+<none>            1990.1                     
+as.factor(RND)  1 2023.1 35.002 3.294e-09 ***
+LLIN.actual     1 1991.7  3.604   0.05763 .  
+Location        1 2013.1 24.972 5.818e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT  Pr(>Chi)    
+<none>             2773.6                     
+Location         1 2805.8 34.199 4.974e-09 ***
+RND:LLIN.actual  1 2771.6  0.002    0.9664    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        1992.0                      
+Location                    1 2014.8 24.8546 6.182e-07 ***
+as.factor(RND):LLIN.actual  1 1990.1  0.1076    0.7429    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT Pr(>Chi)    
+<none>            1650.9                     
+Location        1 1664.6 15.7160 7.36e-05 ***
+RND:Net.actual  1 1650.2  1.3175    0.251    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       977.69                   
+Location                   1 983.31 7.6205 0.005771 **
+as.factor(RND):Net.actual  1 977.77 2.0824 0.149005   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+             P coef.RND
+model1 9.6e-10   0.2000
+model2 3.3e-09   0.8700
+model3 9.7e-01   0.0029
+model4 7.4e-01   0.0980
+model5 2.5e-01  -0.1100
+model6 1.5e-01  -0.6900
+
+
+
+	 kdrS 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 2939.746  2973.143 -1464.873      5875 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.747   
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+             4.1372              -0.1926              -0.5408  
+       LocationWest  
+            -1.7024  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2072.334  2103.933 -1031.167      4099 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7417  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+             3.9746              -0.8206              -0.6078  
+       LocationWest  
+            -1.5689  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 2941.715  2981.791 -1464.857      5874 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7475  
+
+Number of obs: 5880 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                4.15603                 -0.19839                 -1.70495  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               -0.57213                  0.01165  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2074.334  2112.252 -1031.167      4098 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.7416  
+
+Number of obs: 4104 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                           3.973045                            -0.817788  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                          -1.568529                            -0.605731  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                          -0.005097  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+1738.2323 1775.4865 -863.1162      3668 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.8095  
+
+Number of obs: 3674 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 4.11361                  -0.24173                   0.07389  
+            LocationWest  RND:Net.actualPermaNet-2  
+                -1.75983                   0.07765  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 986.3837 1020.4342 -487.1918      2148 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.9445  
+
+Number of obs: 2154 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              4.2707                               -1.2565  
+                Net.actualPermaNet-2                          LocationWest  
+                             -0.2659                               -1.5882  
+as.factor(RND)5:Net.actualPermaNet-2  
+                              0.6625  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         2939.8                     
+RND          1 2972.7 34.904 3.464e-09 ***
+LLIN.actual  1 2942.4  4.609   0.03181 *  
+Location     1 2969.5 31.737 1.765e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT  Pr(>Chi)    
+<none>            2072.3                     
+as.factor(RND)  1 2103.0 32.633 1.113e-08 ***
+LLIN.actual     1 2075.5  5.123   0.02361 *  
+Location        1 2094.8 24.473 7.537e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT  Pr(>Chi)    
+<none>             2941.7                     
+Location         1 2971.5 31.767 1.738e-08 ***
+RND:LLIN.actual  1 2939.8  0.031    0.8594    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2074.3                      
+Location                    1 2096.8 24.4396 7.668e-07 ***
+as.factor(RND):LLIN.actual  1 2072.3  0.0003    0.9861    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT Pr(>Chi)    
+<none>            1738.2                     
+Location        1 1750.9 14.6416  0.00013 ***
+RND:Net.actual  1 1736.9  0.6711  0.41266    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       986.38                   
+Location                   1 992.85 8.4621 0.003626 **
+as.factor(RND):Net.actual  1 986.32 1.9385 0.163826   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+             P coef.RND
+model1 3.5e-09  -0.1900
+model2 1.1e-08  -0.8200
+model3 8.6e-01   0.0120
+model4 9.9e-01  -0.0051
+model5 4.1e-01   0.0780
+model6 1.6e-01   0.6600
+
+
+
+	 Cyp4j5 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 7311.731  7345.074 -3650.865      5813 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5954  
+
+Number of obs: 5818 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+            0.37546              0.04463              0.24747  
+       LocationWest  
+           -0.51131  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5052.787  5084.316 -2521.393      4043 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6118  
+
+Number of obs: 4048 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+             0.4133               0.1177               0.2067  
+       LocationWest  
+            -0.4313  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 7308.721  7348.733 -3648.360      5812 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5902  
+
+Number of obs: 5818 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+               0.492706                 0.004823                -0.535037  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               0.030284                 0.093935  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5048.713  5086.548 -2518.356      4042 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6115  
+
+Number of obs: 4048 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                             0.5235                              -0.1225  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                            -0.4757                               0.0622  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                             0.4786  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 4552.459  4589.648 -2270.230      3628 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5529  
+
+Number of obs: 3634 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 1.01206                  -0.07969                  -0.61289  
+            LocationWest  RND:Net.actualPermaNet-2  
+                -0.64522                   0.11405  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2596.507  2630.457 -1292.254      2112 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.5627  
+
+Number of obs: 2118 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              1.2035                               -0.4903  
+                Net.actualPermaNet-2                          LocationWest  
+                             -0.7800                               -0.6201  
+as.factor(RND)5:Net.actualPermaNet-2  
+                              0.4850  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT Pr(>Chi)   
+<none>         7311.7                   
+RND          1 7314.4 4.6878 0.030378 * 
+LLIN.actual  1 7311.6 1.8985 0.168245   
+Location     1 7317.2 7.4763 0.006252 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT Pr(>Chi)  
+<none>            5052.8                  
+as.factor(RND)  1 5052.3 1.4992  0.22079  
+LLIN.actual     1 5052.0 1.1858  0.27619  
+Location        1 5055.5 4.7221  0.02978 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT Pr(>Chi)   
+<none>             7308.7                   
+Location         1 7314.9 8.1985 0.004192 **
+RND:LLIN.actual  1 7311.7 5.0101 0.025199 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC    LRT Pr(>Chi)  
+<none>                        5048.7                  
+Location                    1 5052.4 5.6470  0.01748 *
+as.factor(RND):LLIN.actual  1 5052.8 6.0739  0.01372 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC    LRT Pr(>Chi)   
+<none>            4552.5                   
+Location        1 4557.1 6.6492  0.00992 **
+RND:Net.actual  1 4553.9 3.4823  0.06203 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)  
+<none>                       2596.5                  
+Location                   1 2599.7 5.1916   0.0227 *
+as.factor(RND):Net.actual  1 2597.0 2.4908   0.1145  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+           P coef.RND
+model1 0.030    0.045
+model2 0.220    0.120
+model3 0.025    0.094
+model4 0.014    0.480
+model5 0.062    0.110
+model6 0.110    0.480
+
+
+
+	 Coeaed1 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 8119.579  8152.969 -4054.790      5867 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.04859 
+
+Number of obs: 5872 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+           0.168184            -0.007903             0.018949  
+       LocationWest  
+          -0.053405  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5668.479  5700.073 -2829.240      4095 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.08734 
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+           0.178950            -0.022863            -0.008652  
+       LocationWest  
+          -0.043331  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 8118.281  8158.348 -4053.140      5866 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.05419 
+
+Number of obs: 5872 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                0.24735                 -0.03246                 -0.06919  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               -0.13321                  0.06190  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 5668.745  5706.657 -2828.372      4094 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.08019 
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                            0.22490                             -0.10463  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                           -0.06568                             -0.07370  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            0.19333  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 5082.226  5119.480 -2535.113      3668 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 6.137e-05
+
+Number of obs: 3674 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                0.212483                 -0.009944                  0.097541  
+            LocationWest  RND:Net.actualPermaNet-2  
+               -0.139903                 -0.043177  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2981.557  3015.608 -1484.779      2148 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 0.0001095
+
+Number of obs: 2154 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             0.17956                              -0.02141  
+                Net.actualPermaNet-2                          LocationWest  
+                             0.09640                              -0.14438  
+as.factor(RND)5:Net.actualPermaNet-2  
+                            -0.16937  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC     LRT Pr(>Chi)
+<none>         8119.6                 
+RND          1 8117.8 0.23143   0.6305
+LLIN.actual  1 8117.7 0.10166   0.7498
+Location     1 8118.2 0.66578   0.4145
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC      LRT Pr(>Chi)
+<none>            5668.5                  
+as.factor(RND)  1 5666.6 0.101813   0.7497
+LLIN.actual     1 5666.5 0.013972   0.9059
+Location        1 5666.8 0.293035   0.5883
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT Pr(>Chi)  
+<none>             8118.3                  
+Location         1 8117.3 1.0683  0.30133  
+RND:LLIN.actual  1 8119.6 3.2986  0.06934 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC    LRT Pr(>Chi)
+<none>                        5668.7                
+Location                    1 5667.4 0.6515   0.4196
+as.factor(RND):LLIN.actual  1 5668.5 1.7344   0.1879
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT Pr(>Chi)  
+<none>            5082.2                   
+Location        1 5083.3 3.10848  0.07789 .
+RND:Net.actual  1 5081.2 0.95729  0.32787  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC     LRT Pr(>Chi)
+<none>                       2981.6                 
+Location                   1 2981.1 1.57738   0.2091
+as.factor(RND):Net.actual  1 2980.2 0.65416   0.4186
+
+
+$test.summary
+           P coef.RND
+model1 0.630  -0.0079
+model2 0.750  -0.0230
+model3 0.069   0.0620
+model4 0.190   0.1900
+model5 0.330  -0.0430
+model6 0.420  -0.1700
+
+
+
+	 Cyp6p4 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 3652.084  3685.457 -1821.042      5847 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.144   
+
+Number of obs: 5852 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+            1.77143              0.11853              0.01603  
+       LocationWest  
+            0.75825  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2565.952  2597.546 -1277.976      4095 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 0.0001632
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+            1.86771              0.54340              0.05892  
+       LocationWest  
+            0.74715  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 3652.686  3692.734 -1820.343      5846 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1304  
+
+Number of obs: 5852 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                1.69144                  0.14618                  0.77575  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+                0.17295                 -0.07294  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2566.716  2604.628 -1277.358      4094 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 0.0001803
+
+Number of obs: 4100 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                             1.8179                               0.6433  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                             0.7770                               0.1337  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            -0.2874  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 2233.286  2270.514 -1110.643      3652 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1371  
+
+Number of obs: 3658 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 1.63894                   0.17108                   0.13661  
+            LocationWest  RND:Net.actualPermaNet-2  
+                 0.63123                  -0.04723  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1322.2931 1356.3381 -655.1466      2146 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev. 
+ HSD    (Intercept) 8.154e-05
+
+Number of obs: 2152 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              1.6081                                0.8520  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.3262                                0.6644  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.3063  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC     LRT  Pr(>Chi)    
+<none>         3652.1                      
+RND          1 3665.8 15.7304 7.304e-05 ***
+LLIN.actual  1 3650.1  0.0209    0.8852    
+Location     1 3676.5 26.4121 2.758e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2565.9                      
+as.factor(RND)  1 2583.7 19.7659 8.753e-06 ***
+LLIN.actual     1 2564.2  0.2712    0.6025    
+Location        1 2585.7 21.7871 3.046e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC     LRT  Pr(>Chi)    
+<none>             3652.7                      
+Location         1 3678.3 27.5725 1.513e-07 ***
+RND:LLIN.actual  1 3652.1  1.3978    0.2371    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2566.7                      
+Location                    1 2587.6 22.8901 1.715e-06 ***
+as.factor(RND):LLIN.actual  1 2565.9  1.2364    0.2662    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2233.3                      
+Location        1 2242.9 11.5872 0.0006641 ***
+RND:Net.actual  1 2231.7  0.3654 0.5455099    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       1322.3                   
+Location                   1 1329.9 9.6091 0.001936 **
+as.factor(RND):Net.actual  1 1321.2 0.9246 0.336268   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+             P coef.RND
+model1 7.3e-05    0.120
+model2 8.8e-06    0.540
+model3 2.4e-01   -0.073
+model4 2.7e-01   -0.290
+model5 5.5e-01   -0.047
+model6 3.4e-01   -0.310
+
+
+
+	 ZZB 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 3418.007  3451.361 -1704.004      5825 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.177   
+
+Number of obs: 5830 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+          1.8340874            0.1293608           -0.0004902  
+       LocationWest  
+          0.8728245  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2433.922  2465.496 -1211.961      4079 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.07977 
+
+Number of obs: 4084 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+            1.91680              0.59923              0.07889  
+       LocationWest  
+            0.77094  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 3418.563  3458.588 -1703.281      5824 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1592  
+
+Number of obs: 5830 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                1.74714                  0.15937                  0.89178  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+                0.16835                 -0.07852  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2434.541  2472.430 -1211.270      4078 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.08237 
+
+Number of obs: 4084 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                             1.8639                               0.7116  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                             0.8032                               0.1589  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                            -0.3202  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 2081.638  2118.856 -1034.819      3646 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.2104  
+
+Number of obs: 3652 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                 1.76800                   0.18701                   0.04345  
+            LocationWest  RND:Net.actualPermaNet-2  
+                 0.81782                  -0.05851  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1260.4996 1294.5445 -624.2498      2146 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.1294  
+
+Number of obs: 2152 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                              1.7348                                0.8734  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.1923                                0.7601  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.2455  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         3418.0                     
+RND          1 3432.8 16.830 4.088e-05 ***
+LLIN.actual  1 3416.0  0.000    0.9967    
+Location     1 3444.0 28.017 1.202e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2433.9                      
+as.factor(RND)  1 2453.8 21.8844 2.896e-06 ***
+LLIN.actual     1 2432.3  0.4255    0.5142    
+Location        1 2452.9 20.9521 4.709e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC     LRT  Pr(>Chi)    
+<none>             3418.6                      
+Location         1 3445.9 29.2985 6.204e-08 ***
+RND:LLIN.actual  1 3418.0  1.4442    0.2295    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2434.5                      
+Location                    1 2454.7 22.1219 2.559e-06 ***
+as.factor(RND):LLIN.actual  1 2433.9  1.3807      0.24    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2081.6                      
+Location        1 2093.3 13.6959 0.0002149 ***
+RND:Net.actual  1 2080.1  0.4619 0.4967238    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)   
+<none>                       1260.5                   
+Location                   1 1268.6 10.091  0.00149 **
+as.factor(RND):Net.actual  1 1258.9  0.373  0.54140   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+             P coef.RND
+model1 4.1e-05    0.130
+model2 2.9e-06    0.600
+model3 2.3e-01   -0.079
+model4 2.4e-01   -0.320
+model5 5.0e-01   -0.059
+model6 5.4e-01   -0.250
+
+
+
+	 Dup1 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 4305.824  4339.176 -2147.912      5823 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.3825  
+
+Number of obs: 5828 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+             1.1556               0.1964               0.1258  
+       LocationWest  
+             1.1489  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2996.332  3027.901 -1493.166      4075 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.4729  
+
+Number of obs: 4080 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+             1.3174               0.9127               0.1766  
+       LocationWest  
+             1.2365  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 4306.991  4347.013 -2147.495      5822 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.3775  
+
+Number of obs: 5828 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+                1.09940                  0.21740                  1.16020  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+                0.23704                 -0.05504  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2997.613  3035.496 -1492.806      4074 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.4682  
+
+Number of obs: 4080 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                              1.281                                1.010  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                              1.256                                0.226  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                             -0.235  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 2636.768  2673.986 -1312.384      3646 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.2752  
+
+Number of obs: 3652 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                1.269406                  0.215221                 -0.179093  
+            LocationWest  RND:Net.actualPermaNet-2  
+                1.070709                 -0.003861  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+1536.7033 1570.7427 -762.3517      2144 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.3011  
+
+Number of obs: 2150 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             1.29372                               1.05458  
+                Net.actualPermaNet-2                          LocationWest  
+                             0.04469                               1.15473  
+as.factor(RND)5:Net.actualPermaNet-2  
+                            -0.13232  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT  Pr(>Chi)    
+<none>         4305.8                     
+RND          1 4350.3 46.494 9.191e-12 ***
+LLIN.actual  1 4304.5  0.669    0.4135    
+Location     1 4337.6 33.727 6.342e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT  Pr(>Chi)    
+<none>            2996.3                     
+as.factor(RND)  1 3041.3 46.980 7.171e-12 ***
+LLIN.actual     1 2995.2  0.893    0.3446    
+Location        1 3023.2 28.839 7.867e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT  Pr(>Chi)    
+<none>             4307.0                     
+Location         1 4339.3 34.339 4.629e-09 ***
+RND:LLIN.actual  1 4305.8  0.833    0.3615    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC     LRT  Pr(>Chi)    
+<none>                        2997.6                      
+Location                    1 3025.1 29.4636 5.698e-08 ***
+as.factor(RND):LLIN.actual  1 2996.3  0.7191    0.3964    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC     LRT  Pr(>Chi)    
+<none>            2636.8                      
+Location        1 2655.6 20.8112 5.068e-06 ***
+RND:Net.actual  1 2634.8  0.0027    0.9589    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC     LRT  Pr(>Chi)    
+<none>                       1536.7                      
+Location                   1 1551.8 17.0456 3.649e-05 ***
+as.factor(RND):Net.actual  1 1534.8  0.1351    0.7132    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+             P coef.RND
+model1 9.2e-12   0.2000
+model2 7.2e-12   0.9100
+model3 3.6e-01  -0.0550
+model4 4.0e-01  -0.2300
+model5 9.6e-01  -0.0039
+model6 7.1e-01  -0.1300
+
+
+
+	 La2 
+
+$all.models
+$all.models$model1
+Formula:          get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+Data: haps
+      AIC       BIC    logLik  df.resid 
+ 6903.878  6936.995 -3446.939      5555 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6517  
+
+Number of obs: 5560 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)                  RND  LLIN.actualPBO LLIN  
+           -0.48219             -0.03472             -0.19325  
+       LocationWest  
+            0.62293  
+
+$all.models$model2
+Formula:          get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 |  
+    HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 4692.593  4723.833 -2341.296      3815 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6826  
+
+Number of obs: 3820 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+        (Intercept)      as.factor(RND)5  LLIN.actualPBO LLIN  
+           -0.44625             -0.08996             -0.24053  
+       LocationWest  
+            0.55021  
+
+$all.models$model3
+Formula:          
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual +      (1 | HSD)
+Data: haps[!is.na(LLIN.actual)]
+      AIC       BIC    logLik  df.resid 
+ 6904.249  6943.989 -3446.124      5554 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6483  
+
+Number of obs: 5560 / Conditional model: HSD, 75
+
+Fixed Effects:
+
+Conditional model:
+            (Intercept)                      RND             LocationWest  
+               -0.55307                 -0.01113                  0.63768  
+    LLIN.actualPBO LLIN  RND:LLIN.actualPBO LLIN  
+               -0.06196                 -0.05521  
+
+$all.models$model4
+Formula:          
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual +  
+    (1 | HSD)
+Data: haps[RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 4691.876  4729.364 -2339.938      3814 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6831  
+
+Number of obs: 3820 / Conditional model: HSD, 71
+
+Fixed Effects:
+
+Conditional model:
+                        (Intercept)                      as.factor(RND)5  
+                           -0.52603                              0.07674  
+                       LocationWest                  LLIN.actualPBO LLIN  
+                            0.58266                             -0.13479  
+as.factor(RND)5:LLIN.actualPBO LLIN  
+                           -0.33172  
+
+$all.models$model5
+Formula:          get(marker) ~ RND + Net.actual + Location + RND:Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN"]
+      AIC       BIC    logLik  df.resid 
+ 4328.158  4365.104 -2158.079      3484 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6294  
+
+Number of obs: 3490 / Conditional model: HSD, 42
+
+Fixed Effects:
+
+Conditional model:
+             (Intercept)                       RND      Net.actualPermaNet-2  
+                -1.03574                   0.06375                   0.57594  
+            LocationWest  RND:Net.actualPermaNet-2  
+                 0.72215                  -0.10011  
+
+$all.models$model6
+Formula:          
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual +  
+    (1 | HSD)
+Data: haps[LLIN.actual == "Non-PBO LLIN" & RND %in% c(1, 5)]
+      AIC       BIC    logLik  df.resid 
+ 2425.655  2459.260 -1206.828      1994 
+Random-effects (co)variances:
+
+Conditional model:
+ Groups Name        Std.Dev.
+ HSD    (Intercept) 0.6407  
+
+Number of obs: 2000 / Conditional model: HSD, 39
+
+Fixed Effects:
+
+Conditional model:
+                         (Intercept)                       as.factor(RND)5  
+                             -1.1797                                0.2725  
+                Net.actualPermaNet-2                          LocationWest  
+                              0.7864                                0.6431  
+as.factor(RND)5:Net.actualPermaNet-2  
+                             -0.2493  
+
+
+$all.tests
+$all.tests$model1
+Single term deletions
+
+Model:
+get(marker) ~ RND + LLIN.actual + Location + (1 | HSD)
+            Df    AIC    LRT Pr(>Chi)   
+<none>         6903.9                   
+RND          1 6904.5 2.6544 0.103266   
+LLIN.actual  1 6902.9 0.9819 0.321738   
+Location     1 6911.3 9.4298 0.002135 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model2
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + LLIN.actual + Location + (1 | 
+    HSD)
+               Df    AIC    LRT Pr(>Chi)  
+<none>            4692.6                  
+as.factor(RND)  1 4691.4 0.8113  0.36774  
+LLIN.actual     1 4691.9 1.3101  0.25238  
+Location        1 4697.0 6.3585  0.01168 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model3
+Single term deletions
+
+Model:
+get(marker) ~ RND + Location + LLIN.actual + RND:LLIN.actual + 
+    (1 | HSD)
+                Df    AIC    LRT Pr(>Chi)   
+<none>             6904.2                   
+Location         1 6912.1 9.8741 0.001676 **
+RND:LLIN.actual  1 6903.9 1.6294 0.201787   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model4
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Location + LLIN.actual + as.factor(RND):LLIN.actual + 
+    (1 | HSD)
+                           Df    AIC    LRT Pr(>Chi)   
+<none>                        4691.9                   
+Location                    1 4696.9 7.0243 0.008041 **
+as.factor(RND):LLIN.actual  1 4692.6 2.7165 0.099314 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model5
+Single term deletions
+
+Model:
+get(marker) ~ RND + Net.actual + Location + RND:Net.actual + 
+    (1 | HSD)
+               Df    AIC    LRT Pr(>Chi)   
+<none>            4328.2                   
+Location        1 4333.3 7.1051 0.007687 **
+RND:Net.actual  1 4328.6 2.4390 0.118352   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$all.tests$model6
+Single term deletions
+
+Model:
+get(marker) ~ as.factor(RND) + Net.actual + Location + as.factor(RND):Net.actual + 
+    (1 | HSD)
+                          Df    AIC    LRT Pr(>Chi)  
+<none>                       2425.7                  
+Location                   1 2428.6 4.9064  0.02676 *
+as.factor(RND):Net.actual  1 2424.2 0.5991  0.43893  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$test.summary
+           P coef.RND
+model1 0.100   -0.035
+model2 0.370   -0.090
+model3 0.200   -0.055
+model4 0.099   -0.330
+model5 0.120   -0.100
+model6 0.440   -0.250
+
+

@@ -1,0 +1,105 @@
+cluster,LLIN.intend,LLIN.actual,Net.intend,Net.actual,Wave,Location,subregions
+1,1,1,1,1,4,West,South Western
+10,1,1,1,1,4,West,South Western
+100,2,2,2,2,2,East,Mid-Eastern
+101,1,1,1,1,2,East,North Eastern
+102,1,1,3,3,2,East,North Eastern
+103,2,2,2,2,2,East,North Eastern
+104,2,2,2,2,3,East,East Central
+11,1,1,1,1,4,West,South Western
+12,2,2,4,4,5,West,South Western
+13,2,2,4,4,5,West,South Western
+14,2,2,2,2,4,West,South Western
+15,1,1,1,1,4,West,South Western
+16,1,1,1,1,4,West,Mid-Western
+17,1,1,3,3,4,West,Mid-Western
+18,1,1,1,1,4,West,South Western
+19,1,1,3,3,4,West,South Western
+2,2,2,4,4,5,West,Mid-Western
+20,2,2,2,2,4,West,South Western
+21,1,1,1,1,4,West,South Western
+22,1,1,1,1,3,West,Mid-Western
+23,1,1,1,1,3,West,Mid-Western
+24,1,1,1,1,3,West,Mid-Western
+25,2,2,4,4,5,West,Mid-Western
+26,1,1,1,1,5,West,Mid-Western
+27,2,NA,2,NA,5,West,Mid-Western
+28,1,1,1,1,5,West,Mid-Western
+29,2,2,4,4,5,West,Mid-Western
+3,1,1,3,3,5,West,Mid-Western
+30,2,2,2,2,4,West,Mid-Western
+31,1,1,1,1,4,West,Mid-Western
+32,1,1,1,1,4,West,Mid-Western
+33,2,2,4,4,4,West,South Western
+34,1,1,1,1,4,West,South Western
+35,2,2,4,4,4,West,South Western
+36,2,2,2,2,4,West,Mid-Western
+37,1,1,3,3,4,West,Mid-Western
+38,2,2,2,2,4,West,Mid-Western
+39,2,NA,4,NA,4,West,Mid-Western
+4,2,2,4,4,3,West,Mid-Western
+40,1,1,1,1,4,West,South Western
+41,2,2,4,4,4,West,South Western
+42,2,2,4,4,4,West,South Western
+43,2,2,2,2,3,West,Mid-Western
+44,1,1,1,1,4,West,Mid-Western
+45,2,2,2,2,4,West,Mid-Western
+46,1,1,1,1,4,West,South Western
+47,1,1,3,1,4,West,South Western
+48,2,2,4,4,5,West,South Western
+49,2,2,2,2,5,West,South Western
+5,1,1,3,3,4,West,South Western
+50,2,2,4,4,5,West,South Western
+51,2,2,2,2,4,West,Mid-Western
+52,1,1,1,1,4,West,Mid-Western
+53,2,2,4,4,5,West,Mid-Western
+54,1,1,1,1,5,West,Mid-Western
+55,1,1,1,1,4,West,Mid-Western
+56,1,1,3,3,4,West,South Western
+57,1,1,1,1,4,West,South Western
+58,1,1,3,3,4,West,South Western
+59,2,2,2,2,4,West,South Western
+6,2,2,2,2,4,West,South Western
+60,2,2,2,2,4,West,South Western
+61,2,2,4,4,4,West,South Western
+62,1,1,1,1,4,West,South Western
+63,1,2,3,2,4,West,South Western
+64,2,2,2,2,4,West,South Western
+65,2,2,2,2,4,West,South Western
+66,1,1,3,3,4,West,South Western
+67,1,1,3,3,2,East,Mid-Eastern
+68,2,2,4,4,2,East,Mid-Eastern
+69,1,1,1,1,3,East,East Central
+7,1,1,1,1,4,West,South Western
+70,2,2,2,2,2,East,Mid-Eastern
+71,1,1,3,3,2,East,Mid-Eastern
+72,2,2,2,2,3,East,East Central
+73,2,1,2,1,3,East,East Central
+74,1,1,1,1,3,East,East Central
+75,2,2,2,2,3,East,East Central
+76,2,2,2,2,3,East,East Central
+77,2,2,2,2,3,East,North Eastern
+78,1,NA,1,NA,3,East,North Eastern
+79,2,1,4,1,3,East,North Eastern
+8,1,1,3,3,4,West,South Western
+80,2,2,4,4,3,East,East Central
+81,1,1,1,1,3,East,East Central
+82,1,1,1,1,3,East,East Central
+83,2,2,2,2,3,East,East Central
+84,1,1,1,1,3,East,East Central
+85,2,2,2,2,2,East,Mid-Eastern
+86,1,1,1,1,2,East,Mid-Eastern
+87,2,2,4,4,2,East,North Eastern
+88,1,1,1,1,2,East,North Eastern
+89,2,2,2,2,3,East,North Eastern
+9,2,2,2,2,3,West,Mid-Western
+90,1,1,3,3,3,East,North Eastern
+91,1,1,1,1,3,East,East Central
+92,2,2,2,2,3,East,East Central
+93,2,2,4,4,3,East,East Central
+94,2,2,2,2,3,East,East Central
+95,1,1,1,1,2,East,North Eastern
+96,2,2,2,2,3,East,North Eastern
+97,2,2,2,2,3,East,North Eastern
+98,1,1,1,1,3,East,North Eastern
+99,1,1,1,1,3,East,North Eastern

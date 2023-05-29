@@ -1,0 +1,1039 @@
+ename,survey,cluster,eanum,hhnum,hhid,intdate,burnyn,whatburn,whatburnother,spray,closewindow,closetime,airbricks,scrairbricks,sdoors,ceiling,result,otherresult,totvisit,nonanophfem,nonanophmal,gambiaef,gambiaem,funestusf,funestusm,othanophfem,othanophmal
+ODOL WILFRED,2,1,1,27,200101027,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,2,64,200102064,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,3,24,200103024,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,4,53,200104053,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,5,9,200105009,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,6,80,200106080,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,7,11,200107011,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,8,36,200108036,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,3,0,0,0,0,0,0,0
+ODOL WILFRED,2,1,9,155,200109155,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ODOL WILFRED,2,1,10,42,200110042,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,2,1,50,200201050,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,2,2,20,200202020,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,2,3,11,200203011,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+TUMWESIGYE LABAN,2,2,4,63,200204063,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,2,5,68,200205068,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,2,6,2,200206002,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,2,7,12,200207012,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,2,8,47,200208047,2018-09-15 00:00:00.000,Yes,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,2,9,24,200209024,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,2,10,2,200210002,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,3,1,72,200301072,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,16,2,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,3,2,115,200302115,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,3,3,1,200303001,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,3,4,29,200304029,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,3,5,39,200305039,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,3,6,32,200306032,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,3,7,197,200307197,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,2,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,3,8,9,200308009,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,5,1,0,0
+NYANGABAKYE FRANCIS,2,3,9,21,200309021,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,1,0,1,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,3,10,16,200310016,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,29,3,0,0,0,0,0,0
+TUMWINE YONAH,2,4,1,78,200401078,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,4,2,41,200402041,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONH,2,4,3,22,200403022,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,5,9,0,0,0,0,0,0
+TUMWINE YONAH,2,4,4,26,200404026,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,9,5,0,0,0,0,0,0
+TUMWINE YONAH,2,4,5,197,200405197,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,13,8,0,0,0,0,0,0
+TUMWINE YONAH,2,4,6,186,200406186,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,6,11,0,0,0,0,0,0
+TUMWINE YONAH,2,4,7,45,200407045,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,10,6,0,0,0,3,0,0
+TUMWINE YONAH,2,4,8,199,200408199,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,13,9,0,0,0,6,0,0
+TUMWINE YONAH,2,4,9,136,200409136,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,6,3,0,0,0,0,0,0
+TUMWINE YONAH,2,4,10,134,200410134,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,Dont Know,No,Completed,-9,1,10,6,0,0,0,2,0,0
+KAWESA BUMALI,2,5,1,143,200501143,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,5,2,6,200502006,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,5,3,56,200503056,2018-01-16 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,Dont Know,Dont Know,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,5,4,104,200504104,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Dont Know,-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,5,5,10,200505010,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+KAWESA BUMALI,2,5,6,12,200506012,2018-01-23 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,5,7,92,200507092,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,5,8,110,200508110,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWSA BUMALI,2,5,9,10,200509010,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+KAWESA BUMALI,2,5,10,40,200510040,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,6,1,52,200601052,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,6,2,139,200602139,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,1,3,0,0,0,0,0,0
+KAWESA BUMALI,2,6,3,275,200603275,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,7,5,0,0,0,0,0,0
+KAWESA BUMALI,2,6,4,35,200604035,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,3,2,1,2,0,0,0,0
+KAWESA BUMALI,2,6,5,43,200605043,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,6,6,51,200606051,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+KAWESA BUMALI,2,6,7,3,200607003,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,6,8,38,200608038,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,6,9,30,200609030,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+KAWESA BUMALI,2,6,10,22,200610022,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,1,39,200701039,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+KAWESA BUMALI,2,7,2,45,200702045,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,1,0,0,0,0,0,0
+KAWESA BUMALI,2,7,3,110,200703110,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+KAWESA BUMALI,2,7,4,78,200704078,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,5,45,200705045,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,6,72,200706072,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,7,43,200707043,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,8,3,200708003,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,9,71,200709071,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,7,10,88,200710088,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,1,71,200801071,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,2,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,2,25,200802025,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,3,32,200803032,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,4,78,200804078,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,5,69,200805069,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,6,62,200806062,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,4,3,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,7,54,200807054,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,8,107,200808107,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,9,13,200809013,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,8,10,30,200810030,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,1,361,200901361,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,3,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,2,113,200902113,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,1,0,0,0,0
+TUMWESIGYE LABAN,2,9,3,100,200903100,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,4,27,200904027,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,5,187,200905187,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,0,1,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,6,69,200906069,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,7,54,200907054,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,8,171,200908171,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,9,18,200909018,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,9,10,60,200910060,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,2,0,1,0
+ISABIRYE  EMMANUEL,2,10,1,87,201001087,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,2,12,201002012,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,3,37,201003037,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,4,4,201004004,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,5,104,201005104,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,6,187,201006187,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,7,91,201007091,2018-02-03 00:00:00.000,Yes,Coil,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE   EMMANUEL,2,10,8,2,201008002,2018-02-04 00:00:00.000,Yes,Coil,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,9,77,201009077,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,10,10,96,201010096,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,1,120,201101120,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,2,99,201102099,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,3,36,201103036,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,4,89,201104089,2018-02-05 00:00:00.000,No,-9,-9,Yes,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,5,26,201105026,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,6,22,201106022,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ISABIRYE   EMMANUEL,2,11,7,124,201107124,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,8,112,201108112,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,9,32,201109032,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,11,10,107,201110107,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,1,134,201201134,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,7,0,0,0,0,0,0
+TUMWINE YONAH,2,12,2,47,201202047,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,3,42,201203042,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,4,22,201204022,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,5,26,201205026,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,6,71,201206071,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,7,6,0,0,0,0,0,0
+TUMWINE YONAH,2,12,7,3,201207003,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,8,69,201208069,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,9,100,201209100,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,12,10,67,201210067,2018-09-15 00:00:00.000,No,-9,-9,Yes,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,1,11,201301011,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,2,86,201302086,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,3,6,201303006,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,4,22,201304022,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,5,5,201305005,2018-09-14 00:00:00.000,No,-9,-9,No,ALWAYS CLOSED,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,6,24,201306024,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,7,19,201307019,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),ONLY SEATING ROOM,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,8,72,201308072,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),YES ONLY SEATING ROOM,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,9,119,201309119,2018-09-13 00:00:00.000,No,-9,-9,No,ALWAYS CLOSED,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUSASIZI ERIC,2,13,10,43,201310043,2018-09-13 00:00:00.000,No,-9,-9,No,ALWAYS CLOSED,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,1,105,201401105,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,2,93,201402093,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,3,76,201403076,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,4,59,201404059,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,5,17,201405017,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,6,95,201406095,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,7,55,201407055,2018-01-20 00:00:00.000,Yes,Coil,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,8,58,201408058,2018-01-18 00:00:00.000,Yes,Coil,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,9,36,201409036,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,14,10,70,201410070,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,1,58,201501058,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,2,55,201502055,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,3,62,201503062,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,4,43,201504043,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,5,65,201505065,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,6,142,201506142,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,7,9,201507009,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,8,100,201508100,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,9,56,201509056,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,15,10,24,201510024,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,2,0,0,0,0,0,0
+KATO MIKE,2,16,1,42,201601042,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,2,11,201602011,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,3,18,201603018,2018-01-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,4,30,201604030,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,5,4,201605004,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,6,17,201606017,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,7,8,201607008,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,8,96,201608096,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,9,51,201609051,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,16,10,88,201610088,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,17,1,26,201701026,2018-02-03 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,17,2,22,201702022,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,17,3,13,201703013,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,17,4,40,201704040,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,17,5,70,201705070,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,17,6,12,201706012,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,17,7,27,201707027,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,17,8,84,201708084,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,17,9,93,201709093,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,17,10,39,201710039,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,1,31,201801031,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,2,21,201802021,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,3,124,201803124,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,4,56,201804056,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,5,15,201805015,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,6,88,201806088,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,19,5,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,7,1,201807001,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,8,61,201808061,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVN,2,18,9,103,201809103,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,18,10,17,201810017,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,2,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,1,99,201901099,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,2,45,201902045,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,3,12,201903012,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,4,14,201904014,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,6,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,5,230,201905230,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,6,99,201906099,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,3,2,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,7,117,201907117,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,8,74,201908074,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,9,85,201909085,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,19,10,129,201910129,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,20,1,78,202001078,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,1,No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,20,2,51,202002051,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,20,3,22,202003022,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ODWAR EDWARD,2,20,4,82,202004082,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,20,5,64,202005064,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,20,6,10,202006010,2018-02-04 00:00:00.000,No,-9,-9,Yes,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,20,7,4,202007004,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,20,8,31,202008031,2018-08-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,20,9,109,202009109,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,20,10,68,202010068,2018-02-04 00:00:00.000,No,-9,-9,Yes,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,1,93,202101093,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,2,172,202102172,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,3,76,202103076,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,4,284,202104284,2018-01-31 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,3,0,2,0,0,0,0,0,0
+ODWAR EDWARD,2,21,5,17,202105017,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,10,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,6,2,202106002,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,7,89,202107089,2018-01-30 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ODWAR EDWARD,2,21,8,485,202108485,2018-02-03 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,21,9,23,202109023,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,1,0,0,0,0
+ODWAR EDWARD,2,21,10,83,202110083,2018-02-02 00:00:00.000,Yes,Herbs,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,1,6,202201006,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,2,46,202202046,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,3,13,202203013,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,2,0,0,0
+TUMWESIGYE LABAN,2,22,4,51,202204051,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWEIGYE LABAN,2,22,5,114,202205114,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,4,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,6,29,202206029,2017-11-11 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,7,28,202207028,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,1,1,0,0
+TUMWESIGYE LABAN,2,22,8,28,202208028,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,9,5,202209005,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,22,10,37,202210037,2017-11-11 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE  LABAN,2,23,1,54,202301054,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,23,2,39,202302039,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+NYANGABAKYEG FRANCIS,2,23,3,175,202303175,2017-11-11 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,23,4,6,202304006,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,14,3,0,0
+NYANGABAKYE FRANCIS,2,23,5,114,202305114,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,23,6,131,202306131,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,23,7,120,202307120,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,2,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,23,8,251,202308251,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,3,0,4,1,0,0
+NYANGABAKYE FRANCIS,2,23,9,56,202309056,2017-11-11 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,1,0,0,0
+NYANGABAKYE FRANCIS,2,23,10,62,202310062,2017-11-10 00:00:00.000,Yes,Coil,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMINE YONAH,2,24,1,88,202401088,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,2,711,202402711,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,2,22,13,0,0,0,0,0,0
+TUMWINE YONAH,2,24,3,93,202403093,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,4,45,202404045,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,5,22,202405022,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,6,180,202406180,2017-11-10 00:00:00.000,No,-9,-9,Yes,Yes,6-10pm,No(or not all),No(or not all),No(or not all),Yes,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,7,126,202407126,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,8,64,202408064,2017-11-10 00:00:00.000,Yes,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,9,192,202409192,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,24,10,61,202410061,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+0DWAR EDWARD,2,25,1,81,202501081,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ODWAR EDWARD,2,25,2,112,202502112,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),Yes(all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,25,3,36,202503036,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,25,4,138,202504138,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,25,5,77,202505077,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,25,6,29,202506029,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,25,7,24,202507024,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,25,8,59,202508059,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,25,9,27,202509027,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+odol wilfred,2,25,10,100,202510100,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,1,13,202601013,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,-9,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,2,5,202602005,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,3,4,202603004,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,2,0,0,0,0,0
+odol wilfred,2,26,4,18,202604018,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,5,6,202605006,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,6,17,202606017,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,7,66,202607066,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,8,88,202608088,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+odol wilfred,2,26,9,72,202609072,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+odol wilfred,2,26,10,61,202610061,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,1,144,202701144,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,2,38,202702038,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,3,85,202703085,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,4,49,202704049,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,5,6,202705006,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,6,75,202706075,2018-09-15 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,7,129,202707129,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,5,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,8,73,202708073,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,3,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,9,47,202709047,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,27,10,24,202710024,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,1,78,202801078,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,2,42,202802042,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,3,100,202803100,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,17,8,0,0,0,0,0,0
+ODWAR EDWARD,2,28,4,66,202804066,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,5,65,202805065,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,6,7,202806007,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,7,88,202807088,2018-09-12 00:00:00.000,Yes,FIRE WOOD,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,8,17,202808017,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,9,30,202809030,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,28,10,47,202810047,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,1,149,202901149,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,2,74,202902074,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,3,14,202903014,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,4,115,202904115,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,12,7,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,5,90,202905090,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,4,5,1,0,0,0,0
+WATUWA PHILIP PETER,2,29,6,17,202906017,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,7,13,202907013,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,29,8,27,202908027,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,2,1,0,0,0,0
+WATUWA PHILIP PETER,2,29,9,53,202909053,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,2,12,0,0,0,0,0,0,0
+odol wilfred,2,29,10,5,202910005,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,1,3,203001003,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,2,43,203002043,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,3,10,203003010,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMINE YONAH,2,30,4,95,203004095,2018-01-18 00:00:00.000,No,Other,-9,No,Yes,6-7pm,-9,-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,5,13,203005013,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,6,44,203006044,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,2,0,0,0,0,3,0,0
+TUMWINE YONAH,2,30,7,3,203007003,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,8,128,203008128,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,9,66,203009066,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,30,10,85,203010085,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,1,1,203101001,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,2,45,203102045,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,3,19,203103019,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),Dont Know,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,4,17,203104017,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,1,0,0,0,0,0
+TUMWINE YONAH,2,31,5,10,203105010,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,6,33,203106033,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,7,43,203107043,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,8,48,203108048,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,9,71,203109071,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,31,10,86,203110086,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,1,38,203201038,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,2,44,203202044,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,3,84,203203084,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,4,40,203204040,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,5,33,203205033,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,6,35,203206035,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,3,0,0,0,0,0,0
+TUMWINE YONAH,2,32,7,148,203207148,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,8,36,203208036,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,32,9,326,203209326,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+TUMWINE YONAH,2,32,10,36,203210036,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ WATUWA PHILIP PETER,2,33,1,196,203301196,2018-01-17 00:00:00.000,No,-9,-9,No,No,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,2,111,203302111,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,3,5,203303005,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,4,10,203304010,2018-01-18 00:00:00.000,No,-9,-9,No,No,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,5,7,203305007,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,6,18,203306018,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,7,3,203307003,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,8,25,203308025,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,9,23,203309023,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Not at home,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,33,10,116,203310116,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,2,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,1,43,203401043,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,2,5,203402005,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,3,23,203403023,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,4,7,203404007,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,5,1,203405001,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,6,48,203406048,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,7,6,203407006,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,8,132,203408132,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,9,48,203409048,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,34,10,179,203410179,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,1,40,203501040,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,2,35,203502035,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,3,36,203503036,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,4,49,203504049,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,26,23,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,5,70,203505070,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Not at home,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,6,8,203506008,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,7,73,203507073,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,8,13,203508013,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,9,93,203509093,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,35,10,41,203510041,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-10pm,-9,Yes(all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,36,1,54,203601054,2018-02-07 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,36,2,12,203602012,2018-02-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,36,3,87,203603087,2018-02-07 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Not at home,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,36,4,9,203604009,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,36,5,94,203605094,2018-02-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,36,6,102,203606102,2018-02-07 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,36,7,1,203607001,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,36,8,99,203608099,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,36,9,31,203609031,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,36,10,59,203610059,2018-02-06 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+tuhaise violet,2,37,1,79,203701079,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+tihaise violet,2,37,2,15,203702015,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,9,7,0,0,0,0,0,0
+tuhaise violet,2,37,3,49,203703049,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,3,0,0,0,0,0,0
+tuhaise violet,2,37,4,99,203704099,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,15,9,0,0,0,0,0,0
+tuhaise violet,2,37,5,62,203705062,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),-9,Completed,-9,1,6,3,0,0,0,0,0,0
+tuhaise violet,2,37,6,64,203706064,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,1,0,0,0,0,0,0
+tuhaise violet,2,37,7,38,203707038,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+tuhaise violet,2,37,8,166,203708166,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,9,1,0,0,0,0,0,0
+tuhaise violet,2,37,9,132,203709132,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),-9,No(or not all),No,Completed,-9,1,17,6,0,0,0,0,0,0
+tuhaise violet,2,37,10,59,203710059,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,5,1,0,0,0,0,0,0
+tuhaise violet,2,38,1,13,203801013,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+tuhaise violet,2,38,2,87,203802087,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,7,0,0,0,0,0,0
+tuhaise violet,2,38,3,142,203803142,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+tuhaise violet,2,38,4,31,203804031,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,-9,0,0,0,0,0,0,0,0
+tuhaise violet,2,38,5,77,203805077,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+tuhaise violet,2,38,6,12,203806012,2018-01-30 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,2,0,0,0,0,0,0
+tuhaise violet,2,38,7,122,203807122,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+tuhaise violet,2,38,8,112,203808112,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,6,0,0,0,0,0,0
+tuhaise violet,2,38,9,61,203809061,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,9,0,0,0,0,0,0
+tuhaise violet,2,38,10,56,203810056,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+tuhaise violet,2,39,1,227,203901227,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+tuhaise violet,2,39,2,148,203902148,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+tuhaise violet,2,39,3,39,203903039,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,0,0,0,0,0,0,0
+tuhaise violet,2,39,4,33,203904033,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,5,1,0,0,0,0,0,0
+tuhaise violet,2,39,5,41,203905041,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,-9,-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+tuhaise violet,2,39,6,180,203906180,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,12,7,0,0,0,0,0,0
+TUHAISE VIOLET,2,39,7,13,203907013,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,9,0,0,0,0,0,0
+tuhaise violet,2,39,8,1,203908001,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,2,0,0,0,0,0,0
+Tuhaise violet,2,39,9,58,203909058,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,1,13,3,0,0,0,0,0,0
+tuhaise violet,2,39,10,328,203910328,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,3,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,1,35,204001035,2018-01-20 00:00:00.000,Yes,Coil,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,2,125,204002125,2018-01-20 00:00:00.000,No,-9,-9,Yes,Yes,After 10pm,Yes(all),Yes(all),Yes(all),Yes,Completed,-9,1,7,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,3,42,204003042,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),Yes(all),Yes(all),Yes,Completed,-9,1,246,33,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,4,24,204004024,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,5,59,204005059,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,6,56,204006056,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,7,39,204007039,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,64,4,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,8,14,204008014,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,9,136,204009136,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,40,10,29,204010029,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,1,62,204101062,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,2,94,204102094,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,3,22,204103022,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,4,17,204104017,2018-01-22 00:00:00.000,Yes,Herbs,-9,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,5,71,204105071,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,6,96,204106096,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,7,28,204107028,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,8,14,204108014,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,9,56,204109056,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,7,6,0,0,0,0,0,0
+ONYIGE ISMAIL,2,41,10,10,204110010,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,1,81,204201081,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,2,85,204202085,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,3,9,204203009,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,4,3,204204003,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,5,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,5,28,204205028,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,6,5,204206005,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,7,194,204207194,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,8,31,204208031,2018-01-26 00:00:00.000,Yes,Herbs,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,9,90,204209090,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,42,10,305,204210305,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,1,57,204301057,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,2,26,204302026,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,2,4,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,3,32,204303032,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,2,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,4,134,204304134,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,40,12,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,5,63,204305063,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,17,8,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,6,84,204306084,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,7,157,204307157,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,25,7,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,8,22,204308022,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,9,35,204309035,2017-11-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,43,10,50,204310050,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,127,39,1,3,0,0,0,0
+KATO MIKE,2,44,1,43,204401043,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,2,35,204402035,2018-01-24 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,3,11,204403011,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,4,16,204404016,2018-01-22 00:00:00.000,No,-9,-9,No,No,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,5,10,204405010,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,6,144,204406144,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,7,67,204407067,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,8,40,204408040,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,9,62,204409062,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,44,10,9,204410009,2018-01-24 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,1,97,204501097,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,2,15,204502015,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,3,169,204503169,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+KATO MIKE,2,45,4,49,204504049,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,5,73,204505073,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,6,38,204506038,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,7,23,204507023,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),-9,No,Completed,-9,-9,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,8,74,204508074,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,9,70,204509070,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,45,10,9,204510009,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,1,5,204601005,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,2,54,204602054,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,1,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,3,21,204603021,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,4,42,204604042,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,5,54,204605054,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,6,40,204606040,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,7,48,204607048,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,8,37,204608037,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,9,47,204609047,2018-01-18 00:00:00.000,No,-9,-9,Yes,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ODWAR EDWARD,2,46,10,57,204610057,2018-01-19 00:00:00.000,Yes,Other,WOOD,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,1,98,204701098,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,2,136,204702136,2018-01-24 00:00:00.000,Yes,Herbs,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,3,19,204703019,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ODWAR EDWARD,2,47,4,58,204704058,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ODWAR EDWARD,2,47,5,64,204705064,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,6,9,204706009,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,7,114,204707114,2018-01-23 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,8,120,204708120,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,9,6,204709006,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODWAR EDWARD,2,47,10,52,204710052,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,1,41,204801041,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,2,42,204802042,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,3,11,204803011,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,4,37,204804037,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,5,33,204805033,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,7,2,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,6,28,204806028,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,7,9,204807009,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,8,15,204808015,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,9,20,204809020,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,48,10,93,204810093,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,49,1,33,204901033,2018-09-19 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,49,2,183,204902183,2018-09-19 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,49,3,145,204903145,2018-09-19 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAME,2,49,4,123,204904123,2018-09-19 00:00:00.000,No,-9,-9,Yes,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,0,0,0,0,0,0,0
+ADIGA JAMES,2,49,5,12,204905012,2018-09-20 00:00:00.000,Yes,Other,Cooks in the room and burns some pieces of fire wood in the charcol stove to create smoke,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,49,6,139,204906139,2018-09-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,2,7,7,0,0,0,0,0,0
+ADIGA JAMES,2,49,7,68,204907068,2018-09-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,49,8,182,204908182,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,49,9,57,204909057,2018-09-18 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ADIGA JAMES,2,49,10,34,204910034,2018-09-19 00:00:00.000,No,-9,-9,Yes,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,50,1,3,205001003,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,50,2,3,205002003,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ADIGA JAMES,2,50,3,81,205003081,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,50,4,105,205004105,2018-09-17 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,50,5,26,205005026,2018-09-16 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+ADIGA JAMES,2,50,6,53,205006053,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,50,7,27,205007027,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,2,0,0,0,0,0,0
+ADIGA JAMES,2,50,8,59,205008059,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,5,6,0,0,0,0,0,0
+ADIGA JAMES,2,50,9,58,205009058,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ADIGA JAMES,2,50,10,46,205010046,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,1,101,205101101,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,2,21,205102021,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,3,147,205103147,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYNGBAKYE FRANCIS,2,51,4,33,205104033,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,5,143,205105143,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,6,94,205106094,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,7,184,205107184,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,8,88,205108088,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,9,79,205109079,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,51,10,16,205110016,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,1,14,205201014,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,2,5,205202005,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,3,32,205203032,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,4,50,205204050,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,1,1,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,5,190,205205190,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABKYE FRANCIS,2,52,6,27,205206027,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,7,2,205207002,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,6,2,6,13,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,8,88,205208088,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,9,79,205209079,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,52,10,61,205210061,2018-01-28 00:00:00.000,No,-9,-9,No,No,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,1,4,1,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,1,63,205301063,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,2,8,205302008,2018-09-14 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE   EMMANUEL,2,53,3,79,205303079,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,4,90,205304090,2018-09-14 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,5,23,205305023,2018-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE    EMMANUEL,2,53,6,63,205306063,2018-09-15 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,7,27,205307027,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,8,24,205308024,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,9,13,205309013,2018-09-13 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,53,10,53,205310053,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,1,7,205401007,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,2,82,205402082,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,3,35,205403035,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,4,50,205404050,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,5,23,205405023,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,6,44,205406044,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,1,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,7,99,205407099,2018-09-14 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,8,47,205408047,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,9,52,205409052,2018-09-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,54,10,65,205410065,2018-09-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,1,17,205501017,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,2,12,205502012,2018-02-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,3,14,205503014,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,4,19,205504019,2018-02-05 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,5,2,205505002,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,6,81,205506081,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,2,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,7,37,205507037,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,8,50,205508050,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,9,172,205509172,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,55,10,35,205510035,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE EMMANUEL,2,56,1,72,205601072,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,2,58,205602058,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,3,97,205603097,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,4,58,205604058,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,5,3,205605003,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,6,3,205606003,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE   EMMANUEL,2,56,7,120,205607120,2018-01-17 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,8,30,205608030,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,56,9,13,205609013,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ ISABIRYE  EMMANUEL,2,56,10,117,205610117,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,2,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,1,86,205701086,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,2,27,205702027,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,3,17,205703017,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,4,34,205704034,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,5,61,205705061,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,6,14,205706014,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,7,8,205707008,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,8,74,205708074,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,57,9,100,205709100,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE  LABAN,2,57,10,69,205710069,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,1,55,205801055,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,2,45,205802045,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,3,54,205803054,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,4,45,205804045,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,5,82,205805082,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,6,59,205806059,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,7,15,205807015,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,8,136,205808136,2018-01-29 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,9,31,205809031,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,58,10,10,205810010,2018-01-28 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,1,28,205901028,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,2,97,205902097,2018-01-27 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,3,44,205903044,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,4,104,205904104,2018-01-26 00:00:00.000,No,-9,-9,Yes,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE  LABAN,2,59,5,46,205905046,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,6,21,205906021,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,7,64,205907064,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,8,29,205908029,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,9,76,205909076,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,59,10,68,205910068,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,4,0,0,0,0,0,0
+KAWESA BUMALI,2,60,1,12,206001012,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,60,2,186,206002186,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,60,3,37,206003037,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,60,4,64,206004064,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,60,5,107,206005107,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,3,4,0,0,0,0,0,0
+KAWESA BUMALI,2,60,6,111,206006111,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,1,0,0,0,0,0,0,0
+KAWESA BUMALI,2,60,7,111,206007111,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,15,9,0,0,0,0,0,0
+KAWESA BUMALI,2,60,8,71,206008071,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,4,6,0,0,0,0,0,0
+KAWESA BUMALI,2,60,9,121,206009121,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,3,0,0,0,0,0,0
+KAWESA BUMALI,2,60,10,42,206010042,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,61,1,59,206101059,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,61,2,105,206102105,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,61,3,30,206103030,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,61,4,36,206104036,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,1,0,0,0,0,0,0
+MUGOTE MARTIN,2,61,5,49,206105049,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,Yes(all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,61,6,22,206106022,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,1,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,61,7,48,206107048,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,61,8,47,206108047,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,4,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,61,9,27,206109027,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,1,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,61,10,76,206110076,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,1,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,1,22,206201022,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,2,11,206202011,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,3,14,206203014,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,4,22,206204022,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,5,33,206205033,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),-9,Completed,-9,-9,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,6,21,206206021,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,7,131,206207131,2018-01-18 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,8,53,206208053,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,9,18,206209018,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,62,10,87,206210087,2018-01-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,63,1,4,206301004,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,63,2,42,206302042,2018-01-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,63,3,69,206303069,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,19:00 HRS,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,63,4,9,206304009,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,-9,-9,1,2,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,63,5,142,206305142,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,2,1,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,63,6,58,206306058,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,63,7,51,206307051,2018-01-25 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,63,8,17,206308017,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,63,9,36,206309036,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,63,10,28,206310028,2018-01-24 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,64,1,2,206401002,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,64,2,49,206402049,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,64,3,112,206403112,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,64,4,92,206404092,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,64,5,89,206405089,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,64,6,13,206406013,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,3,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,64,7,67,206407067,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,64,8,13,206408013,2018-01-30 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,64,9,30,206409030,2018-01-31 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,64,10,173,206410173,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,65,1,29,206501029,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,65,2,18,206502018,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,65,3,6,206503006,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,65,4,80,206504080,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,65,5,23,206505023,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,65,6,53,206506053,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,65,7,84,206507084,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,65,8,6,206508006,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,65,9,44,206509044,2018-02-03 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,65,10,37,206510037,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,66,1,59,206601059,2018-02-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,66,2,2,206602002,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,66,3,1,206603001,2018-02-01 00:00:00.000,No,-9,-9,Yes,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,66,4,20,206604020,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,66,5,102,206605102,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,66,6,8,206606008,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,66,7,66,206607066,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,66,8,97,206608097,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,66,9,30,206609030,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,1,0,0,0,0,0,0,0
+ORUNI AMBROSE,2,66,10,16,206610016,2018-02-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,67,1,94,206701094,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,2,0,0,0,0
+ODOL WILFRED,2,67,2,3,206702003,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,35,0,0,0,0,0
+ODOL WILFRED,2,67,3,99,206703099,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,1,4,1,0,0,0,0
+ODOL WILFRED,2,67,4,34,206704034,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,5,11,0,0,0,0
+ODOL WILFRED,2,67,5,74,206705074,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,8,2,0,0,0,0
+ODOL WILFRED,2,67,6,39,206706039,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,13,1,0,0,0,0
+ODOL WILFRED,2,67,8,44,206708044,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,5,19,5,0,0,0,0
+ODOL WILFRED,2,67,9,29,206709029,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,1,4,1,0,0,0,0
+ODOL WILFRED,2,67,10,41,206710041,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,1,2,0,0,0,0
+ODOL WILFRED,2,68,1,3,206801003,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+ODOL WILFRED,2,68,2,73,206802073,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,10,0,0,0,0,0,0
+ODOL WILFRED,2,68,3,58,206803058,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,1,1,0,0,0,0
+ODOL WILFRED,2,68,4,16,206804016,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,87,240,1,0,0,0,0,0
+ODOL WILFRED,2,68,5,30,206805030,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+ODOL WILFRED,2,68,6,15,206806015,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ODOL WILFRED,2,68,7,99,206807099,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,0,0,1,1,0,0
+ODOL WILFRED,2,68,8,24,206808024,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,11,2,2,1,2,0,0,0
+ODOL WILFRED,2,68,9,34,206809034,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,9,0,0,0,0,0
+ODOL WILFRED,2,68,10,87,206810087,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,6,1,1,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,1,113,206901113,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,1,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,2,45,206902045,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,3,64,206903064,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,4,64,206904064,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,2,0,0,0,0,0,0
+ISABIRYE  EMMMANUEL,2,69,5,88,206905088,2017-11-10 00:00:00.000,Yes,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,6,117,206906117,2017-11-13 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,3,0,0,0,0,0
+ISABIRYE EMMANUEL,2,69,7,53,206907053,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,8,78,206908078,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,56,75,4,2,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,9,80,206909080,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Not at home,-9,1,3,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,69,10,103,206910103,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),Dont Know,No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,70,1,4,207001004,2017-09-17 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,1,1,0,0
+TUMWESIGYE LABAN,2,70,2,48,207002048,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,4,2,0,0
+TUMWESIGYE LABAN,2,70,3,97,207003097,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,3,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,70,4,4,207004004,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,4,13,0,0
+TUMWESIGYE LABAN,2,70,5,63,207005063,2017-09-23 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,6,0,1,0,1,0,0
+TUMWESIGYE LABAN,2,70,6,158,207006158,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,11,16,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,70,7,77,207007077,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,2,0,0,1,2,0,0
+TUMWESIGYE LABAN,2,70,8,34,207008034,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,1,2,0,1,0,0,0
+TUMWESIGYE LABAN,2,70,9,15,207009015,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,1,0,0,0
+TUMWESIGYE LABAN,2,70,10,11,207010011,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,1,135,207101135,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,2,200,207102200,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,4,6,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,3,194,207103194,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,1,3,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,4,61,207104061,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,6,2,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,5,124,207105124,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,6,121,207106121,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,7,192,207107192,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,2,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,8,108,207108108,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,2,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,9,162,207109162,2017-09-24 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,71,10,65,207110065,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,7,4,0,0,0,0,0,0
+ISABIRYE  EMMMANUEL,2,72,1,106,207201106,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),Yes(all),Yes(all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,2,218,207202218,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,3,9,207203009,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,4,33,207204033,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,5,26,207205026,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,6,90,207206090,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,5,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,7,100,207207100,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,8,26,207208026,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,9,36,207209036,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),1,No,Completed,-9,1,1,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,72,10,259,207210259,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,1,91,207301091,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),Dont Know,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,2,107,207302107,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),Yes(all),Yes,Completed,-9,1,5,2,0,0,0,0,0,0
+KAWESA BUMALI,2,73,3,6,207303006,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,4,62,207304062,2017-10-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),Yes,Completed,-9,1,1,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,5,44,207305044,2017-10-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+kawesa bumali,2,73,6,106,207306106,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,7,179,207307179,2017-10-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,8,292,207308292,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Dont Know,Dont Know,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,9,190,207309190,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,73,10,145,207310145,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,3,0,0,0,0,0,0,0
+TUMWINE YONAH,2,74,1,125,207401125,2017-11-01 00:00:00.000,Yes,Coil,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,74,2,148,207402148,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,1,1,0,0,1,0,0,0,0,0
+TUMWINE YONAH,2,74,3,122,207403122,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,74,4,46,207404046,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,1,0,0,0,0,0
+TUMWINE YONAH,2,74,5,87,207405087,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,2,0,0,0,0,0
+TUMWINE YONAH,2,74,6,21,207406021,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+TUMWINE YONAH,2,74,7,66,207407066,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,5,2,0,0,0,0,0,0
+TUMWINE YONAH,2,74,8,26,207408026,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+TUMWINE YONAH,2,74,9,79,207409079,2017-10-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,1,0,0,0,0,0
+TUMWINE YONAH,2,74,10,47,207410047,2017-10-31 00:00:00.000,Yes,Coil,-9,No,Yes,Before 6pm,Yes(all),No(or not all),Dont Know,No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,1,44,207501044,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,4,3,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,2,54,207502054,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,3,68,207503068,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,4,10,207504010,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,5,15,207505015,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,6,68,207506068,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,7,45,207507045,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,8,18,207508018,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,9,162,207509162,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,75,10,104,207510104,2017-11-15 00:00:00.000,No,-9,-9,Yes,Yes,After 10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,2,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,76,1,77,207601077,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ WATUWA PHILIP PETER,2,76,2,64,207602064,2017-11-07 00:00:00.000,No,Herbs,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,2,0,3,0,0,0
+WATUWA PHILIP PETER,2,76,3,158,207603158,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,76,4,74,207604074,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,76,5,18,207605018,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,12,8,0,0,1,1,0,0
+WATUWA PHILIP PETER,2,76,6,107,207606107,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,76,7,43,207607043,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,12,4,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,76,8,40,207608040,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+WATUWA PHILIP PETER,2,76,9,120,207609120,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+WATUWA PHILIP PETE,2,76,10,73,207610073,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,77,1,30,207701030,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,23,15,0,0,0,0,0,0
+KAWESA BUMALI,2,77,2,54,207702054,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,3,1,0,0,0,0,0,0
+KAWESA BUMALI,2,77,3,53,207703053,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,9,5,0,0,0,0,0,0
+KAWESA BUMALI,2,77,4,78,207704078,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,1,0,0,0,0,0,0
+KAWESA BUMALI,2,77,5,63,207705063,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,7,3,0,0,0,0,0,0
+KAWESA BUMALI,2,77,6,35,207706035,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+KAWESA BUMALI,2,77,7,109,207707109,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,8,4,0,0,0,0,0,0
+KAWESA BUMALI,2,77,8,124,207708124,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,2,4,1,0,0,0,0,0,0
+KAWESA BUMALI,2,77,9,152,207709152,2017-11-12 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+KAWESA BUMALI,2,77,10,49,207710049,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,78,1,50,207801050,2017-11-10 00:00:00.000,Dont Know,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,2,0,1,0,0,0,0
+KAWESA BUMALI,2,78,2,74,207802074,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+KAWESA BUMALI,2,78,3,26,207803026,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,4,0,2,0,1,0,0
+KAWESA BUMALI,2,78,4,3,207804003,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,78,5,5,207805005,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,41,32,0,0,0,0,0,0
+KAWESA BUMALI,2,78,6,37,207806037,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+KAWESA BUMALI,2,78,7,4,207807004,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,4,0,0,0,0,0,0
+KAWESA BUMALI,2,78,8,22,207808022,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,11,9,0,0,0,0,0,0
+KAWESA BUMALI,2,78,9,18,207809018,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,1,0,0,0,0
+KAWESA BUMALI,2,78,10,82,207810082,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,1,0,0,0
+ISABIRYE  EMMANUEL,2,79,1,1,207901001,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,1,1,0,12,1,0,0
+ISABIRYE  EMMANUEL,2,79,2,49,207902049,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,2,5,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,3,3,207903003,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,4,50,207904050,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,5,43,207905043,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,6,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,6,1,207906001,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,7,98,207907098,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,13,3,0,0
+ISABIRYE  EMMANUEL,2,79,8,52,207908052,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,3,0,1,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,9,25,207909025,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,79,10,53,207910053,2017-11-16 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,9,0,4,0,0,0,0
+GOKYALYA GLORIA,2,80,1,167,208001167,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,2,66,208002066,2017-11-08 00:00:00.000,No,Herbs,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+GOKYALYA GLORIA,2,80,3,71,208003071,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,4,59,208004059,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,5,164,208005164,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,6,46,208006046,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,2,0,0,0,1,0,0
+GOKYALYA GLORIA,2,80,7,72,208007072,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,8,73,208008073,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,9,70,208009070,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+GOKYALYA GLORIA,2,80,10,89,208010089,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+Odwar Edward,2,81,1,122,208101122,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,18,2,0,0,0,0,0,0
+Odwar Edward,2,81,2,130,208102130,2017-11-07 00:00:00.000,Yes,Coil,-9,No,No,-9,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,11,1,0,0,0,0,0,0
+Odwar Edward,2,81,3,194,208103194,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,5,0,0,0,0,0,0,0
+Odwar Edward,2,81,4,130,208104130,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,17,14,0,0,0,0,0,0
+Odwar Edward,2,81,5,82,208105082,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+Odwar Edward,2,81,6,169,208106169,2017-11-08 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+Odwar Edward,2,81,7,146,208107146,2017-11-07 00:00:00.000,No,-9,-9,No,No,-9,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,16,1,0,0,0,0,0,0
+Odwar Edward,2,81,8,36,208108036,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),Yes,Completed,-9,1,18,20,0,0,0,0,0,0
+Odwar Edward,2,81,9,83,208109083,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,3,2,0,0,0,0,0,0
+Odwar Edward,2,81,10,78,208110078,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,6,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,1,82,208201082,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,4,0,0,0
+ONYIGE ISMAIL,2,82,2,10,208202010,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,3,94,208203094,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,4,57,208204057,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,5,96,208205096,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,3,1,0,0,0,0,0
+ONYIGE ISMAIL,2,82,6,117,208206117,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,7,167,208207167,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,8,50,208208050,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,9,30,208209030,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,82,10,32,208210032,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+ONYIGE ISMAIL,2,83,1,73,208301073,2017-11-15 00:00:00.000,Yes,Coil,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,1,0,0,0,0,0
+KATO MIKE,2,83,2,67,208302067,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,2,0,0,0,0,0,0
+ONYIGE ISMAIL,2,83,3,71,208303071,2017-11-14 00:00:00.000,Yes,Coil,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+ONYIGE ISMAIL,2,83,4,151,208304151,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+ONYIGE ISMAIL,2,83,5,19,208305019,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,5,12,0,0,0,0,0,0
+ONYIGE ISMAIL,2,83,6,5,208306005,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,4,0,0,0,1,0,0
+KATO MIKE,2,83,7,161,208307161,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,4,2,0,0,0,0,0,0
+KATO MIKE,2,83,8,171,208308171,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,83,9,141,208309141,2017-11-14 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,1,2,0,0,0,0,0,0
+KATO MIKE,2,83,10,17,208310017,2017-11-14 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,84,1,20,208401020,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,1,1,5,0,0,0
+KATO MIKE,2,84,2,11,208402011,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,84,3,128,208403128,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,2,0,0,1,0,0,0
+KATO MIKE,2,84,4,4,208404004,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,6,6,0,0,8,1,0,0
+KATO MIKE,2,84,5,7,208405007,2017-11-07 00:00:00.000,No,-9,-9,No,No,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,1,0,1,1,0,0
+KATO MIKE,2,84,6,40,208406040,2017-11-09 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,1,0,0,0,0,0
+KATO MIKE,2,84,7,185,208407185,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,1,0,0,0
+KATO MIKE,2,84,8,43,208408043,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KATO MIKE,2,84,9,10,208409010,2017-11-08 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,2,1,0,1,0,0,0,0
+KATO MIKE,2,84,10,157,208410157,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,1,0,0,0
+TUMWINE YONAH,2,85,1,37,208501037,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,2,1,0,0,0,0,0
+MUGOTE MARTIN,2,85,2,136,208502136,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,1,0,0,0
+TUMWINE YONAH,2,85,3,40,208503040,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,6,0,0,0,0,0,0
+MUGOTE MARTIN,2,85,4,74,208504074,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,85,5,157,208505157,2017-09-25 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,85,6,79,208506079,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,4,1,2,1,2,1,0,0
+TUMWINE YONAH,2,85,7,88,208507088,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,85,8,64,208508064,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,6,2,0,0,0,0,0,0
+MUGOTE MARTIN,2,85,9,87,208509087,2017-09-22 00:00:00.000,No,-9,-9,Yes,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,85,10,45,208510045,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,86,1,6,208601006,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,1,3,0,11,2,0,0
+MUGOTE MARTIN,2,86,2,75,208602075,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,2,4,0,0
+MUGOTE MARTIN,2,86,3,74,208603074,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+MUGOTE MARTIN,2,86,4,11,208604011,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,5,2,3,0,3,1,0,0
+MUGOTE MARTIN,2,86,5,21,208605021,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,7,0,15,4,3,1,0,0
+MUGOTE MARTIN,2,86,6,85,208606085,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,86,7,187,208607187,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,4,1,0,0,0,0,0,0
+MUGOTE MARTIN,2,86,8,10,208608010,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,6,0,0,0,1,2,0,0
+MUGOTE MARTIN,2,86,9,125,208609125,2017-09-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+MUGOTE MARTIN,2,86,10,358,208610358,2017-09-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,1,44,208701044,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,12,4,2,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,2,15,208702015,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,8,6,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,3,14,208703014,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,4,46,208704046,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,56,6,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,5,4,208705004,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,6,33,208706033,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,8,3,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,7,2,208707002,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,8,4,208708004,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,19,3,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,9,58,208709058,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,12,4,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,87,10,38,208710038,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+tuhaise violet,2,88,2,71,208802071,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,13,4,0,0,0,0,0,0
+tuhaise violet,2,88,3,38,208803038,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,11,1,0,0,0,0,0,0
+tuhaise violet,2,88,4,7,208804007,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,18,3,0,0,0,0,0,0
+tuhaise violet,2,88,5,22,208805022,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,3,0,0,0,0,0,0
+tuhaise violet,2,88,6,20,208806020,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+tuhaise violet,2,88,7,101,208807101,2017-09-25 00:00:00.000,Yes,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,40,17,0,0,0,0,0,0
+tuhaise violet,2,88,8,18,208808018,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,4,0,0,0,0,0,0
+tuhaise violet,2,88,9,46,208809046,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,13,4,0,0,0,0,0,0
+tuhaise violet,2,88,10,129,208810129,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,26,7,0,0,0,0,0,0
+NUWAMANAYA PATRICK,2,89,1,3,208901003,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ODOL WILFRED,2,89,2,14,208902014,2017-11-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,5,7,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,89,3,2,208903002,2017-11-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,2,20,3,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,89,4,22,208904022,2017-11-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,89,5,16,208905016,2017-11-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,89,6,43,208906043,2017-11-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,89,7,7,208907007,2017-11-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,3,2,0,0,0,0,0,0
+ODOL WILFRED,2,89,8,22,208908022,2017-11-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,89,9,13,208909013,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,89,10,46,208910046,2017-11-17 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,1,34,209001034,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,2,18,209002018,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,3,27,209003027,2018-01-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,4,28,209004028,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,5,72,209005072,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,6,38,209006038,2018-01-21 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,7,16,209007016,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,8,25,209008025,2018-01-23 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+0DOL WILFRED,2,90,9,57,209009057,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,90,10,3,209010003,2018-01-20 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,3,0,0,1,2,0,0
+NYNGABAKYE FRANCIS,2,91,1,23,209101023,2017-10-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,2,0,3,0,0,0
+NYANGABAKYE FRANCIS,2,91,2,92,209102092,2017-10-31 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,1,0,0,0
+NYANGABAKYE FRANCIS,2,91,3,65,209103065,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,91,4,113,209104113,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,12,3,0,0,0,0
+NYANGABAKYE FRANCIS,2,91,5,94,209105094,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,2,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,91,6,94,209106094,2017-11-05 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,18,11,2,1,0,0
+NYANGABAKYE FRANCIS,2,91,7,36,209107036,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,2,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,91,8,13,209108013,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,8,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,91,9,50,209109050,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,91,10,236,209110236,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+Odwar  Edward,2,92,1,38,209201038,2017-11-13 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,Yes(all),No,Completed,-9,1,34,7,1,0,1,0,0,0
+Odwar  Edward,2,92,2,9,209202009,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+Odwar  Edward,2,92,3,15,209203015,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+Odwar Edward,2,92,4,35,209204035,2017-11-10 00:00:00.000,No,Herbs,-9,No,Yes,6-7pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,8,4,0,0,0,0,0,0
+Odwar Edward,2,92,5,21,209205021,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+Odwar Edward,2,92,6,15,209206015,2017-11-13 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+Odwar Edward,2,92,7,59,209207059,NULL,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,Yes(all),Yes,Completed,-9,1,0,0,0,0,0,0,0,0
+Odwar Edward,2,92,8,147,209208147,2017-11-13 00:00:00.000,Yes,Other,they cook from inside,No,No,-9,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+Odwar Edward,2,92,9,53,209209053,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+Odwar Edward,2,92,10,159,209210159,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),Yes(all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,1,172,209301172,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,2,91,209302091,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,7,5,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,3,49,209303049,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,3,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,4,70,209304070,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,10,5,1,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,5,11,209305011,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,6,68,209306068,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,7,124,209307124,2017-11-10 00:00:00.000,Yes,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,8,11,209308011,2017-11-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,9,64,209309064,2017-11-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,2,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,93,10,31,209310031,2017-11-08 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,2,0,0,1,0,0,0
+BATTE DERRICK JOVAN,2,94,1,1,209401001,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,2,30,209402030,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,3,8,209403008,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,4,26,209404026,2017-08-11 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,5,40,209405040,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,6,87,209406087,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,7,83,209407083,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,8,33,209408033,2017-11-08 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,1,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,9,12,209409012,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+BATTE DERRICK JOVAN,2,94,10,67,209410067,2017-11-07 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+KAWESA BUMALI,2,95,1,25,209501025,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,2,16,19,10,0,29,11,0,0
+KAWESA BUMALI,2,95,2,57,209502057,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,2,6,4,2,0,0,0,0,0
+KAWESA BUMALI,2,95,3,9,209503009,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,2,6,1,3,1,0,0,0,0
+KAWESA BUMALI,2,95,4,22,209504022,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,95,5,2,209505002,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,1,0,5,0,0,0
+KAWESA BUMALI,2,95,6,7,209506007,2017-09-20 00:00:00.000,No,-9,-9,No,No,-9,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,95,7,5,209507005,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,2,2,0,0,0,0,0,0,0
+KAWESA BUMALI,2,95,8,9,209508009,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,95,9,5,209509005,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,8,4,0,0,0,0,0,0
+KAWESA BUMALI,2,95,10,7,209510007,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,1,16,209601016,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,2,17,209602017,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,3,11,209603011,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,4,29,209604029,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,5,34,209605034,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,6,16,209606016,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,7,10,209607010,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,8,27,209608027,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,9,67,209609067,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,96,10,2,209610002,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,1,13,209701013,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,22,10,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,2,44,209702044,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,4,6,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,3,27,209703027,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,3,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,4,43,209704043,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,97,5,76,209705076,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,42,35,0,0,0,1,0,0
+TUMWESIGYE LABAN,2,97,6,95,209706095,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,6,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,97,7,178,209707178,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,2,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,8,195,209708195,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,9,108,209709108,2017-11-04 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,102,137,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,97,10,83,209710083,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,98,1,40,209801040,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,8,4,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,98,2,24,209802024,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,-9,-9,1,1,7,1,0,1,2,0,0
+TUMWESIGYE LABAN,2,98,3,76,209803076,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,14,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,98,4,190,209804190,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,After 10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,7,14,0,0,3,0,0,0
+TUMWESIGYE LABAN,2,98,5,8,209805008,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,9,3,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,98,6,45,209806045,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWSIGYE LABAN,2,98,7,29,209807029,2017-11-03 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,6,8,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,98,8,42,209808042,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,13,13,1,0,1,0,0,0
+TUMWESIGYE LABAN,2,98,9,84,209809084,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,5,0,0,5,4,0,0
+TUMWESIGYE LABAN,2,98,10,15,209810015,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,5,4,0,0,0,0,0,0
+TUMWESIGYE  LABAN,2,99,1,167,209901167,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,5,1,0,0,0,0,0,0
+TUMWESIGYE LABAN,2,99,2,33,209902033,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+TUMWESIGYE LABAN  TUMWESIGYE LABAN,2,99,3,2,209903002,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,7,3,1,1,0,0,0,0
+TUMWESIGYE LABAN,2,99,4,117,209904117,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,9,1,1,0,0,0,0,0
+NUWAMANYA PATRICK,2,99,5,258,209905258,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),Yes(all),No(or not all),Yes,Completed,-9,1,30,20,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,99,6,25,209906025,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,99,7,27,209907027,2017-11-01 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,99,8,70,209908070,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,21,14,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,99,9,84,209909084,2017-11-01 00:00:00.000,No,-9,-9,Yes,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,4,3,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,99,10,255,209910255,2017-11-02 00:00:00.000,No,-9,-9,No,Yes,After 10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+TUMWINE YONAH,2,100,1,5,210001005,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+TUMWINE YONAH,2,100,2,4,210002004,2017-09-14 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,7,2,0,0,0,0,0,0
+TUMWINE YONAH,2,100,3,10,210003010,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,1,0,0,9,4,0,0
+TUMWINE YONAK,2,100,4,160,210004160,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,3,1,1,5,2,13,0,0
+TUMWINE YONAH,2,100,5,2,210005002,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+TUMWINE YONAH,2,100,6,95,210006095,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,21,13,0,0,0,0,0,0
+TUMWINE YONAH,2,100,7,59,210007059,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+TUMWINE YONAH,2,100,8,72,210008072,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,12,7,0,0,0,0,0,0
+TUMWINE YONAH,2,100,9,57,210009057,2017-09-18 00:00:00.000,Yes,Coil,-9,Yes,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+TUMWINE YONAH,2,100,10,65,210010065,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,5,0,0,0,0,0,0
+ISABIRYE   EMMANUEL,2,101,1,10,210101010,2017-09-14 00:00:00.000,Yes,Herbs,-9,Yes,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,101,2,3,210102003,2017-09-14 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,2,0,0,0,0,0,0
+ISABIRYE   EMMANUEL,2,101,3,35,210103035,2017-09-18 00:00:00.000,Yes,Coil,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,1,0,0,0,0,0,0
+ISABIRYE    EMMANUEL,2,101,4,23,210104023,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),Yes,Completed,-9,1,3,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,101,5,38,210105038,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,24,9,1,0,1,0,0,0
+ISABIRYE    EMMANUEL,2,101,6,25,210106025,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,3,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,101,7,37,210107037,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,9-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ISABIRYE  EMMANUEL,2,101,8,74,210108074,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,6-7pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,4,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,101,9,57,210109057,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,8-9pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,101,10,10,210110010,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,8-9pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,3,0,0,0,0,0,0
+KAWESA BUMALI,2,102,1,35,210201035,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+KAWESA BUMALI,2,102,2,13,210202013,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,1,0,0,0,0,0,0
+KAWESA BUMALI,2,102,3,7,210203007,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,102,4,19,210204019,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,1,1,1,1,0,0,0
+ISABIRYE  EMMANUEL,2,102,5,102,210205102,2018-09-28 00:00:00.000,No,-9,-9,Yes,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+ISABIRYE    EMMANUEL,2,102,6,5,210206005,2017-09-28 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,5,2,0,0,0,0,0,0
+KAWESA BUMALI,2,102,7,56,210207056,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,102,8,38,210208038,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,1,0,0,0,0,0,0
+NYANGABAKYE FRANCIS,2,102,9,55,210209055,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,9-10pm,No(or not all),-9,No(or not all),No,Completed,-9,1,1,0,5,0,1,0,0,0
+KAWESA BUMALI,2,102,10,89,210210089,2017-09-29 00:00:00.000,No,-9,-9,No,Yes,7-8pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,1,1,210301001,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,2,3,210302003,2017-09-20 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,3,4,210303004,2017-09-15 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,4,20,210304020,2017-09-19 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,4,2,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,5,12,210305012,2017-09-27 00:00:00.000,No,-9,-9,No,Yes,7-8pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,6,19,210306019,2017-09-22 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,5,1,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,7,31,210307031,2017-09-25 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,42,19,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,8,35,210308035,2017-09-26 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,3,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,9,1,210309001,2017-09-18 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,2,0,0,0,0,0,0,0
+NUWAMANYA PATRICK,2,103,10,30,210310030,2017-09-21 00:00:00.000,No,-9,-9,No,Yes,6-7pm,No(or not all),-9,No(or not all),No,Completed,-9,1,6,1,0,0,0,0,0,0
+ODOL WILFRED,2,104,1,23,210401023,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,104,2,70,210402070,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,Before 6pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,1,0,0,0,0,0,0
+ODOL WILFRED,2,104,3,29,210403029,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ODOL WILFRED,2,104,4,64,210404064,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,1,0,0,0,0,0,0,0
+ODOL WILFRED,2,104,5,7,210405007,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,104,6,10,210406010,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0
+ODOL WILFRED,2,104,7,60,210407060,2017-11-09 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,11,8,0,0,0,0,0,0
+ODOL WILFRED,2,104,8,24,210408024,2017-11-11 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,3,0,0,0
+ODOL WILFRED,2,104,9,274,210409274,2017-11-11 00:00:00.000,No,-9,-9,No,Yes,6-10pm,No(or not all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,1,0,0
+ODOL WILFREED,2,104,10,98,210410098,2017-11-10 00:00:00.000,No,-9,-9,No,Yes,6-10pm,Yes(all),No(or not all),No(or not all),No,Completed,-9,1,0,0,0,0,0,0,0,0

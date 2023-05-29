@@ -1,0 +1,7 @@
+"PBO Ento ALL molecular data V4 10-03-21 merged.csv" contains all of the LLINEUP metadata for all samples that were genotyped. 
+
+"Allocation.csv" records to which trial arm each sub-district was allocated. 
+
+"allocation_ALL.csv" is another version of Allocation.csv, that is coded slightly differently and includes more information on net type that was used (rather than intended). 
+
+"llineup_location_id.csv" contains the district names (dname2019), sub-country names (ADM4_EN) and the coordinate centroid of each enumeration area (X and Y).

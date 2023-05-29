@@ -1,0 +1,45 @@
+name: llineup
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - scikit-allel
+  - r-ggmap
+  - r-hardyweinberg
+  - r-apcluster
+  - r-tidyverse
+  - r-bit64
+  - r-lme4
+  - jupyter
+  - r-biocmanager
+  - h5py
+  - r-rgeos
+  - r-fdrtool
+  - pysam
+  - matplotlib
+  - r-rgdal
+  - r-plotrix
+  - r-qqman
+  - ipython
+  - biopython
+  - r-data.table
+  - pandas
+  - hmmlearn
+  - zarr
+  - r-ape
+  - numpy
+  - r-reticulate
+  - scipy
+  - r-essentials
+  - dask
+  - scikit-learn
+  - python=3.8
+  - r-ggsn
+  - xarray
+  - r-base
+  - r-rlist
+  - seaborn
+  - r-osmdata
+  - r-caret
+  - r-future.apply
+  - r-glmmtmb
