@@ -1,0 +1,24 @@
+This folder contains code for running the geostatistical modelling analyses described in Lynd et al. 2023, "LLIN Evaluation in Uganda Project (LLINEUP) – changes to insecticide resistance over the course of the trial." 
+It uses the R-INLA package version INLA 23.01.12 (see www.r-inla.org and 
+F Lindgren, H Rue, J Lindstrom, An explicit link between Gaussian fields and Gaussian Markov random fields: The stochastic partial differential equation approach. J R Stat Soc Ser B Stat Methodol 73, 423–498 (2011). 
+
+R code uses R version 4.2.2.
+
+Models were run by typing inla_marker_frequency(data1) in R where data 1 is either:
+allele_frequencies/kdr_frequenciesF_gamb.csv
+allele_frequencies/Cyp6p4_236M_frequencies_gamb.csv
+allele_frequencies/Cyp4j5_43F_frequencies_gamb.csv
+(The version of these files provided here have had the geographic coordinates obfuscated for data protection reasons, and will therefore not correctly produce the maps). They are provided for illustrative purposes.
+
+The fitted models can be mapped by running the R source code in "Make Uganda Maps.R". This code uses the following R packages:
+
+rgdal version 1.6-7   
+raster version 3.6-20 
+INLA version 23.06.15
+
+and requires the following source files:
+
+Uganda.shp.dbf, Uganda.shp.prj, Uganda.shp.shp, Uganda.shp.shx (all in the folder "shapefiles")
+INLA marker frequency.R
+invelogit2.R
+
