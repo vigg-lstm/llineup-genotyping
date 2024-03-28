@@ -113,7 +113,7 @@ combined.plots <- lapply(markers, plot.means.and.conf, haps = gam.haplotypes)
 combined.legend = gtable_filter(ggplotGrob(combined.plots[[1]]), "guide-box")
 
 ###########
-svg('Lynd et al Figure 3_v26May23.svg', width = 12, height = 6)
+svg('Lynd et al Figure 3_v28Mar24.svg', width = 12, height = 6)
 grid.arrange(
 	do.call(arrangeGrob, c(lapply(combined.plots, function(p) p + theme(legend.position='none') + labs(x = '', y = '')), 
 	                       nrow = 2,
@@ -257,5 +257,27 @@ for (marker in names(markers)){
 
 
 
+# Now perform BH p-value correction. 
 
+# The P-values which for part of our hypothesis testing are:
+p.values.of.interest <- with(all.glms, c(kdrF$test.summary[paste('model', 1:2, sep = ''), 'P'],
+                                         kdrS$test.summary[paste('model', 1:2, sep = ''), 'P'],
+                                         La2$test.summary[paste('model', 1:2, sep = ''), 'P'],
+                                         Coeaed1$test.summary[paste('model', 1:2, sep = ''), 'P'],
+                                         Cyp4j5$test.summary[paste('model', 1:4, sep = ''), 'P'],
+                                         Cyp6p4$test.summary[paste('model', 1:6, sep = ''), 'P']))
+names(p.values.of.interest) <- paste(c(rep('kdrF', 2),
+                                       rep('kdrS', 2),
+                                       rep('La2', 2),
+                                       rep('Coeae1d', 2),
+                                       rep('Cyp4j5', 4),
+                                       rep('Cyp6p4', 6)),
+									 names(p.values.of.interest),
+									 sep = '_')
+
+p.values.table <- data.table(Model = names(p.values.of.interest),
+                             P = p.values.of.interest,
+                             FDR = p.adjust(p.values.of.interest, method = 'BH'))
+
+fwrite(p.values.table, 'genotyping_P_values_summary.csv', sep = '\t')
 

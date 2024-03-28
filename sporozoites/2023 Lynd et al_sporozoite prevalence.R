@@ -347,3 +347,15 @@ svg('2La_plasmo_assoc.svg', width = 4, height = 1.75)
 plasmo.table('X2La', Inf.Gam, cel.col = 'gold3', title = '2La inversion', allele.order = c('++', '+a', 'aa'))
 dev.off()
 
+# Output a table summary of the P-values of interest
+p.values.of.interest <- c(model1_Gam = drop1(model.1.Ga, test = 'Chisq')['RND', 'Pr(>Chi)'],
+                          model1_Fun = drop1(model.1.Fun, test = 'Chisq')['RND', 'Pr(>Chi)'],
+                          model2_Gam = drop1(model.2.Ga, test = 'Chisq')['RND', 'Pr(>Chi)'],
+                          model2_Fun = drop1(model.2.Fun, test = 'Chisq')['RND', 'Pr(>Chi)'])
+
+p.value.table <- data.table(model = names(p.values.of.interest),
+                            P = p.values.of.interest,
+                            FDR = p.adjust(p.values.of.interest, method = 'BH'))
+
+fwrite(p.value.table, 'sporozoite_P_values_summary.csv', sep = '\t')
+
