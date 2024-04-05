@@ -117,21 +117,21 @@ cat('\n  # Model1: Pfal ~ RND + LLIN.actual + (1|HSD) #')
 cat('\n  ##############################################\n')
 
 cat('\n\tgambiae + funestus:\n')
-model.1.All <- glmmTMB(Pfal ~ RND + LLIN.actual + species + (1|HSD), 
+model.1.All <- glmmTMB(Pfal ~ RND + LLIN.actual + species + Location + (1|HSD), 
                        data = data.Ga.Fun,
                        family = 'binomial')
 print(drop1(model.1.All, test = 'Chisq'))
 print(fixef(model.1.All))
 ######################
 cat('\n\tgambiae alone:\n')
-model.1.Ga <- glmmTMB(Pfal ~ RND + LLIN.actual + (1|HSD), 
+model.1.Ga <- glmmTMB(Pfal ~ RND + LLIN.actual + Location + (1|HSD), 
                       data = data.Ga,
                       family = 'binomial')
 print(drop1(model.1.Ga, test = 'Chisq'))
 print(fixef(model.1.Ga))
 ##############################
 cat('\n\tfunestus alone:\n')
-model.1.Fun <- glmmTMB(Pfal ~ RND + LLIN.actual + (1|HSD), 
+model.1.Fun <- glmmTMB(Pfal ~ RND + LLIN.actual + Location + (1|HSD), 
                        data = data.Fun,
                        family = 'binomial')
 print(drop1(model.1.Fun, test = 'Chisq'))
@@ -142,21 +142,21 @@ cat('\n  # Model2: OVM ~ RND + LLIN.actual + (1|HSD) #')
 cat('\n  #############################################\n')
 
 cat('\n\tgambiae + funestus:\n')
-model.2.All <- glmmTMB(OVM ~ RND + LLIN.actual + species + (1|HSD), 
+model.2.All <- glmmTMB(OVM ~ RND + LLIN.actual + species + Location + (1|HSD), 
                        data=data.Ga.Fun,
                        family = 'binomial')
 print(drop1(model.2.All, test = 'Chisq'))
 print(fixef(model.2.All))
 ######################
 cat('\n\tgambiae alone:\n')
-model.2.Ga <- glmmTMB(OVM ~ RND + LLIN.actual + (1|HSD), 
+model.2.Ga <- glmmTMB(OVM ~ RND + LLIN.actual + Location + (1|HSD), 
                       data=data.Ga,
                       family = 'binomial')
 print(drop1(model.2.Ga, test = 'Chisq'))
 print(fixef(model.2.Ga))
 ##############################
 cat('\n\tfunestus alone:\n')
-model.2.Fun <- glmmTMB(OVM ~ RND + LLIN.actual + (1|HSD), 
+model.2.Fun <- glmmTMB(OVM ~ RND + LLIN.actual + Location + (1|HSD), 
                        data=data.Fun,
                        family = 'binomial')
 print(drop1(model.2.Fun, test = 'Chisq'))
@@ -167,21 +167,21 @@ cat('\n  # Model3: Pfal ~ RND * LLIN.actual + (1|HSD) #')
 cat('\n  ##############################################\n')
 
 cat('\n\tgambiae + funestus:\n')
-model.3.All <- glmmTMB(Pfal ~ RND * LLIN.actual + species + (1|HSD), 
+model.3.All <- glmmTMB(Pfal ~ RND * LLIN.actual + species + Location + (1|HSD), 
                        data=data.Ga.Fun,
                        family = 'binomial')
 print(drop1(model.3.All, test = 'Chisq'))
 print(fixef(model.3.All))
 ######################
 cat('\n\tgambiae alone:\n')
-model.3.Ga <- glmmTMB(Pfal ~ RND * LLIN.actual + (1|HSD), 
+model.3.Ga <- glmmTMB(Pfal ~ RND * LLIN.actual + Location + (1|HSD), 
                       data=data.Ga,
                       family = 'binomial')
 print(drop1(model.3.Ga, test = 'Chisq'))
 print(fixef(model.3.Ga))
 ##############################
 cat('\n\tfunestus alone:\n')
-model.3.Fun <- glmmTMB(Pfal ~ RND * LLIN.actual + (1|HSD), 
+model.3.Fun <- glmmTMB(Pfal ~ RND * LLIN.actual + Location + (1|HSD), 
                        data=data.Fun,
                        family = 'binomial')
 print(drop1(model.3.Fun, test = 'Chisq'))
@@ -192,21 +192,21 @@ cat('\n  # Model4: OVM ~ RND * LLIN.actual + (1|HSD) #')
 cat('\n  #############################################\n')
 
 cat('\n\tgambiae + funestus:\n')
-model.4.All <- glmmTMB(OVM ~ RND * LLIN.actual + species + (1|HSD), 
+model.4.All <- glmmTMB(OVM ~ RND * LLIN.actual + species + Location + (1|HSD), 
                        data=data.Ga.Fun,
                        family = 'binomial')
 print(drop1(model.4.All, test = 'Chisq'))
 print(fixef(model.4.All))
 ######################
 cat('\n\tgambiae alone:\n')
-model.4.Ga <- glmmTMB(OVM ~ RND * LLIN.actual + (1|HSD), 
+model.4.Ga <- glmmTMB(OVM ~ RND * LLIN.actual + Location + (1|HSD), 
                       data=data.Ga,
                       family = 'binomial')
 print(drop1(model.4.Ga, test = 'Chisq'))
 print(fixef(model.4.Ga))
 ##############################
 cat('\n\tfunestus alone:\n')
-model.4.Fun <- glmmTMB(OVM ~ RND * LLIN.actual + (1|HSD), 
+model.4.Fun <- glmmTMB(OVM ~ RND * LLIN.actual + Location + (1|HSD), 
                        data=data.Fun,
                        family = 'binomial')
 print(drop1(model.4.Fun, test = 'Chisq'))
